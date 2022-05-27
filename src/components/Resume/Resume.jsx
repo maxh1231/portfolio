@@ -1,10 +1,10 @@
 import { useState } from 'react'
 
 const Resume = () => {
-    const [currentJob, setCurrentJob] = useState('bofa')
+    const [currentJob, setCurrentJob] = useState(0)
 
     const renderJob = () => {
-        if (currentJob === 'bofa') {
+        if (currentJob === 0) {
             return (
                 <div>
                     <p>bank of america</p>
@@ -12,7 +12,7 @@ const Resume = () => {
             )
         }
 
-        if (currentJob === '2u') {
+        if (currentJob === 1) {
             return (
                 <div>
                     <p>2u</p>
@@ -20,7 +20,7 @@ const Resume = () => {
             )
         }
 
-        if (currentJob === 'tp') {
+        if (currentJob === 2) {
             return (
                 <div>
                     <p>Teleperformance</p>
@@ -28,7 +28,7 @@ const Resume = () => {
             )
         }
 
-        if (currentJob === 'dfs') {
+        if (currentJob === 3) {
             return (
                 <div>
                     <p>dfs</p>
@@ -39,20 +39,20 @@ const Resume = () => {
 
     const jobHandler = (event) => {
         if (event.target.id === 'bofa') {
-            setCurrentJob('bofa')
+            setCurrentJob(0)
             console.log(event.target.children)
         }
 
         if (event.target.id === '2u') {
-            setCurrentJob('2u')
+            setCurrentJob(1)
         }
 
         if (event.target.id === 'tp') {
-            setCurrentJob('tp')
+            setCurrentJob(2)
         }
 
         if (event.target.id === 'dfs') {
-            setCurrentJob('dfs')
+            setCurrentJob(3)
         }
     }
 
