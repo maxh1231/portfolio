@@ -37,25 +37,42 @@ const Resume = () => {
         }
     }
 
+    const jobHandler = (event) => {
+        if (event.target.id === 'bofa') {
+            setCurrentJob('bofa')
+        }
+
+        if (event.target.id === '2u') {
+            setCurrentJob('2u')
+        }
+
+        if (event.target.id === 'tp') {
+            setCurrentJob('tp')
+        }
+
+        if (event.target.id === 'dfs') {
+            setCurrentJob('dfs')
+        }
+    }
 
     return (
-        <section>
+        <section className='flex'>
             <div>
-                <div>
+                <div id='bofa'>
                     <span>Bank of America</span>
                 </div>
 
-                <div>
+                <div id='2u'>
                     <span>2U Inc.</span>
                 </div>
-                <div>
+                <div id='tp'>
                     <span>Teleperformance</span>
                 </div>
-                <div>
+                <div id='dfs'>
                     <span>Discover</span>
                 </div>
             </div>
-
+            {renderJob()}
             <div>
 
             </div>
