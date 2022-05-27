@@ -40,6 +40,7 @@ const Resume = () => {
     const jobHandler = (event) => {
         if (event.target.id === 'bofa') {
             setCurrentJob('bofa')
+            console.log(event.target.children)
         }
 
         if (event.target.id === '2u') {
@@ -59,17 +60,17 @@ const Resume = () => {
         <section className='flex'>
             <div>
                 <div id='bofa' onClick={jobHandler}>
-                    <span>Bank of America</span>
+                    <span id='bofa' onClick={jobHandler}>Bank of America</span>
                 </div>
 
                 <div id='2u' onClick={jobHandler}>
-                    <span>2U Inc.</span>
+                    <span id='2u' onClick={jobHandler}>2U Inc.</span>
                 </div>
                 <div id='tp' onClick={jobHandler}>
-                    <span>Teleperformance</span>
+                    <span id='tp' onClick={jobHandler}>Teleperformance</span>
                 </div>
                 <div id='dfs' onClick={jobHandler}>
-                    <span>Discover</span>
+                    <span id='dfs' onClick={jobHandler}>Discover</span>
                 </div>
             </div>
             {renderJob()}
