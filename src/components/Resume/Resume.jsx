@@ -58,17 +58,17 @@ const Resume = () => {
     return (
         <section className='flex'>
             <div>
-                <div id='bofa'>
+                <div id='bofa' onClick={jobHandler}>
                     <span>Bank of America</span>
                 </div>
 
-                <div id='2u'>
+                <div id='2u' onClick={jobHandler}>
                     <span>2U Inc.</span>
                 </div>
-                <div id='tp'>
+                <div id='tp' onClick={jobHandler}>
                     <span>Teleperformance</span>
                 </div>
-                <div id='dfs'>
+                <div id='dfs' onClick={jobHandler}>
                     <span>Discover</span>
                 </div>
             </div>
