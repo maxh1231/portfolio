@@ -1,3 +1,3 @@
-import Resume from "./Resume";
+import Experience from "./Experience";
 
-export default Resume;
+export default Experience;

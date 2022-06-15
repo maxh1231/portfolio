@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const Resume = () => {
+const Experience = () => {
     const [currentJob, setCurrentJob] = useState(0)
 
     const renderJob = () => {
@@ -81,4 +81,4 @@ const Resume = () => {
     )
 }
 
-export default Resume;
+export default Experience;
