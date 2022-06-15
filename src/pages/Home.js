@@ -1,15 +1,17 @@
 import Nav from "../components/Nav"
+import Landing from "../components/Landing";
 import About from "../components/About";
+import Experience from "../components/Resume";
 import Projects from "../components/Projects";
-import Resume from "../components/Resume";
 
 const Home = () => {
     return (
         <section>
             <Nav />
+            <Landing />
 
             <About />
-            <Resume />
+            <Experience />
         </section>
     )
 }

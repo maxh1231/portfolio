@@ -1,13 +1,7 @@
 const Landing = () => {
     return (
         <section>
-            <div>
-
-            </div>
-
-            <div>
-
-            </div>
+            THIS IS THE LANDING
         </section>
     )
 }
