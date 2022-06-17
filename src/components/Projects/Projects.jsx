@@ -27,6 +27,19 @@ const Projects = () => {
                 </div>
             </div>
 
+            <div>
+                <div>
+                    image
+                </div>
+                <div>
+                    <div>#1Fan</div>
+                    <div>
+                        Music application for lovers of music. Create an account and favorite your top artists and albums, viewable from your customizable dashboard. Built with Express, mySQL, Tailwind and more.
+                    </div>
+                    <div>HandlebarsJS mySQL</div>
+                </div>
+            </div>
+
         </section>
     )
 }
