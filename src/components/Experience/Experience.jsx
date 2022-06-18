@@ -31,7 +31,7 @@ const Experience = () => {
         if (currentJob === 3) {
             return (
                 <div>
-                    <p>dfs</p>
+                    <p>Spoke with a multitude of customers with varying circumstances. Providing great customer service to find the best solutions for each individual while maintaining high performance metrics.</p>
                 </div>
             )
         }
