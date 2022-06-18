@@ -23,7 +23,7 @@ const Experience = () => {
         if (currentJob === 2) {
             return (
                 <div>
-                    <p>Teleperformance</p>
+                    <p>Licensed property insurance agent in 46 states. Assist customers to enroll in Auto, Home and Renters insurance. Service policies by making adjustments per customer requests.</p>
                 </div>
             )
         }
