@@ -7,6 +7,9 @@ const Experience = () => {
         if (currentJob === 0) {
             return (
                 <div>
+                    <div>
+                        <h2>Claims Analyst</h2>
+                    </div>
                     <p>Investigate customer reported fraud to determine a responsible and appropriate decision. Navigate multiple systems efficiently to assist in the determination process.</p>
                 </div>
             )
@@ -15,6 +18,9 @@ const Experience = () => {
         if (currentJob === 1) {
             return (
                 <div>
+                    <div>
+                        <h2>Tutor & Grader</h2>
+                    </div>
                     <p>Tutor students that request additional assistance in categories of University of Utah's Full Stack Coding Bootcamp.</p>
                 </div>
             )
@@ -23,6 +29,9 @@ const Experience = () => {
         if (currentJob === 2) {
             return (
                 <div>
+                    <div>
+                        <h2>Property Insurance Agent</h2>
+                    </div>
                     <p>Licensed property insurance agent in 46 states. Assist customers to enroll in Auto, Home and Renters insurance. Service policies by making adjustments per customer requests.</p>
                 </div>
             )
@@ -31,6 +40,9 @@ const Experience = () => {
         if (currentJob === 3) {
             return (
                 <div>
+                    <div>
+                        <h2>Account Manager</h2>
+                    </div>
                     <p>Spoke with a multitude of customers with varying circumstances. Providing great customer service to find the best solutions for each individual while maintaining high performance metrics.</p>
                 </div>
             )
