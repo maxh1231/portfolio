@@ -7,7 +7,7 @@ const Experience = () => {
         if (currentJob === 0) {
             return (
                 <div>
-                    <p>bank of america</p>
+                    <p>Investigate customer reported fraud to determine a responsible and appropriate decision. Navigate multiple systems efficiently to assist in the determination process.</p>
                 </div>
             )
         }
@@ -60,7 +60,7 @@ const Experience = () => {
         <section className='flex'>
             <div>
                 <div id='bofa' onClick={jobHandler}>
-                    <span id='bofa' onClick={jobHandler}>Bank of America</span>
+                    <span id='bofa' onClick={jobHandler}>Teletech Inc.</span>
                 </div>
 
                 <div id='2u' onClick={jobHandler}>
