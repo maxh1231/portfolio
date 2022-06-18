@@ -15,7 +15,7 @@ const Experience = () => {
         if (currentJob === 1) {
             return (
                 <div>
-                    <p>2u</p>
+                    <p>Tutor students that request additional assistance in categories of University of Utah's Full Stack Coding Bootcamp.</p>
                 </div>
             )
         }
