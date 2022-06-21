@@ -43,6 +43,9 @@ const Experience = () => {
                         <h2>Property Insurance Agent</h2>
                     </div>
                     <div>
+                        <p>August 2019 - March 2020</p>
+                    </div>
+                    <div>
                         <p>Licensed property insurance agent in 46 states. Assist customers to enroll in Auto, Home and Renters insurance. Service policies by making adjustments per customer requests.</p>
                     </div>
                 </div>
