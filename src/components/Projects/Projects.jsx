@@ -16,14 +16,14 @@ const Projects = () => {
 
             <div>
                 <div>
-                    image
-                </div>
-                <div>
                     <div>Turtle</div>
                     <div>
                         Inspiried by the popular game Wordle. Turtle is a daily word guesser. With multiple modes, play once a day or as much as you'd like. Built in the MERN stack, utilizing Tailwind, PassportJS, graphQl, and more.
                     </div>
                     <div>React.js MongoDB</div>
+                </div>
+                <div>
+                    image
                 </div>
             </div>
 
