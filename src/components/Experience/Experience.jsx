@@ -27,6 +27,9 @@ const Experience = () => {
                         <h2>Tutor & Grader</h2>
                     </div>
                     <div>
+                        <p>March 2022 - Present</p>
+                    </div>
+                    <div>
                         <p>Tutor students that request additional assistance in categories of University of Utah's Full Stack Coding Bootcamp.</p>
                     </div>
                 </div>
