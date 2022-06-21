@@ -11,6 +11,9 @@ const Experience = () => {
                         <h2>Claims Analyst</h2>
                     </div>
                     <div>
+                        <p>May 2020 - Present</p>
+                    </div>
+                    <div>
                         <p>Investigate customer reported fraud to determine a responsible and appropriate decision. Navigate multiple systems efficiently to assist in the determination process.</p>
                     </div>
                 </div>
