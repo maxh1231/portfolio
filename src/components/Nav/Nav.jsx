@@ -7,10 +7,18 @@ const Nav = () => {
 
             <div>
                 <ul className="flex" >
-                    <li>About</li>
-                    <li>Experience</li>
-                    <li>Projects</li>
-                    <li>Resume</li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#exp">Experience</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#resume">Resume</a>
+                    </li>
                 </ul>
             </div>
         </header>
