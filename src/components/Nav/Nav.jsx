@@ -17,7 +17,7 @@ const Nav = () => {
                         <a href="#projects">Projects</a>
                     </li>
                     <li>
-                        <a href="#resume">Resume</a>
+                        <a>Resume</a>
                     </li>
                 </ul>
             </div>
