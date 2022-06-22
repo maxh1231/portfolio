@@ -17,7 +17,7 @@ const Nav = () => {
                         <a href="#projects">Projects</a>
                     </li>
                     <li>
-                        <a>Resume</a>
+                        <a href="https://docs.google.com/document/d/1S9RU3scZyjFcD91g1vVpjavVcvp9GqvFuitpEzQ5CCA/edit" target="_blank">Resume</a>
                     </li>
                 </ul>
             </div>
