@@ -59,6 +59,9 @@ const Experience = () => {
                         <h2>Account Manager</h2>
                     </div>
                     <div>
+                        <p>October 2017 - August 2019</p>
+                    </div>
+                    <div>
                         <p>Spoke with a multitude of customers with varying circumstances. Providing great customer service to find the best solutions for each individual while maintaining high performance metrics.</p>
                     </div>
                 </div>
@@ -86,7 +89,7 @@ const Experience = () => {
     }
 
     return (
-        <section className='flex justify-center'>
+        <section id="exp" className='flex justify-center'>
 
             <div>
                 <div id='bofa' onClick={jobHandler}>
