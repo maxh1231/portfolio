@@ -89,21 +89,21 @@ const Experience = () => {
     }
 
     return (
-        <section id="exp" className='flex justify-center'>
+        <section id="exp" className='flex justify-center text-left w-[600px]'>
 
             <div>
                 <div id='bofa' onClick={jobHandler}>
-                    <span id='bofa' onClick={jobHandler}>Teletech Inc.</span>
+                    <span id='bofa' onClick={jobHandler} className="text-2xl">Teletech Inc.</span>
                 </div>
 
                 <div id='2u' onClick={jobHandler}>
-                    <span id='2u' onClick={jobHandler}>2U Inc.</span>
+                    <span id='2u' onClick={jobHandler} className="text-2xl" >2U Inc.</span>
                 </div>
                 <div id='tp' onClick={jobHandler}>
-                    <span id='tp' onClick={jobHandler}>Teleperformance</span>
+                    <span id='tp' onClick={jobHandler} className="text-2xl">Teleperformance</span>
                 </div>
                 <div id='dfs' onClick={jobHandler}>
-                    <span id='dfs' onClick={jobHandler}>Discover</span>
+                    <span id='dfs' onClick={jobHandler} className="text-2xl">Discover</span>
                 </div>
             </div>
             {renderJob()}
