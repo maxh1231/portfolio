@@ -1,15 +1,15 @@
 const Landing = () => {
     return (
-        <section className=" flex flex-col h-screen justify-center items-center">
+        <section className="text-left flex flex-col h-screen justify-center w-[600px]">
             <div>
-                <p className="text-4xl text-left">Hello</p>
+                <p className="text-4xl ">Hello</p>
             </div>
             <div>
-                <p className="text-6xl text-left">Max Humpherys</p>
-                <p className="text-6xl text-left">I build web applications</p>
+                <p className="text-6xl ">Max Humpherys</p>
+                <p className="text-6xl ">I build web applications</p>
             </div>
             <div>
-                <p className="text-4xl text-left">
+                <p className="text-4xl ">
                     I'm a full stack web developer that builds and creates exceptional digital experiences.
                 </p>
             </div>
