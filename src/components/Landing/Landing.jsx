@@ -1,16 +1,17 @@
 const Landing = () => {
     return (
-        <section>
+        <section className=" flex flex-col h-screen justify-center items-center">
             <div>
-                <span>Hello</span>
+                <p className="text-4xl text-left">Hello</p>
             </div>
             <div>
-                <span>I build web applications</span>
+                <p className="text-6xl text-left">Max Humpherys</p>
+                <p className="text-6xl text-left">I build web applications</p>
             </div>
             <div>
-                <span>
+                <p className="text-4xl text-left">
                     I'm a full stack web developer that builds and creates exceptional digital experiences.
-                </span>
+                </p>
             </div>
         </section>
     )
