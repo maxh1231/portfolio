@@ -6,7 +6,7 @@ const Experience = () => {
     const renderJob = () => {
         if (currentJob === 0) {
             return (
-                <div>
+                <div className='ml-4'>
                     <div>
                         <h2>Claims Analyst</h2>
                     </div>
@@ -22,7 +22,7 @@ const Experience = () => {
 
         if (currentJob === 1) {
             return (
-                <div>
+                <div className='ml-4'>
                     <div>
                         <h2>Tutor & Grader</h2>
                     </div>
@@ -38,7 +38,7 @@ const Experience = () => {
 
         if (currentJob === 2) {
             return (
-                <div>
+                <div className='ml-4'>
                     <div>
                         <h2>Property Insurance Agent</h2>
                     </div>
@@ -54,7 +54,7 @@ const Experience = () => {
 
         if (currentJob === 3) {
             return (
-                <div>
+                <div className='ml-4'>
                     <div>
                         <h2>Account Manager</h2>
                     </div>
