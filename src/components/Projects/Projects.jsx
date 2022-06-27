@@ -1,6 +1,6 @@
 const Projects = () => {
     return (
-        <section id="projects" className="flex flex-col w-[600px]">
+        <section id="projects" className="flex flex-col w-[600px] m-auto">
             <div className="flex flex-row text-right">
                 <div>
                     image
