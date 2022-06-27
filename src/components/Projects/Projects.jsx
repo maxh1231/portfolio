@@ -1,7 +1,7 @@
 const Projects = () => {
     return (
-        <section id="projects">
-            <div>
+        <section id="projects" className="flex flex-col">
+            <div className="flex flex-row">
                 <div>
                     image
                 </div>
@@ -14,7 +14,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div>
+            <div className="flex flex-row">
                 <div>
                     <div>Turtle</div>
                     <div>
@@ -27,7 +27,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div>
+            <div className="flex flex-row">
                 <div>
                     image
                 </div>
