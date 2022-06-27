@@ -1,13 +1,17 @@
 const Contact = () => {
     return (
-        <section>
-            <div><h3>Get In Touch</h3></div>
+        <section className="my-72">
             <div>
-                <p>My inbox is always open.</p>
+                <h3 className="text-6xl">Get In Touch</h3>
             </div>
-            <button>
-                Email
-            </button>
+            <div>
+                <p className="text-2xl">My inbox is always open.</p>
+            </div>
+            <div>
+                <button className="text-2xl">
+                    Send an email!
+                </button>
+            </div>
         </section>
     )
 }
