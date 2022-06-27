@@ -1,11 +1,11 @@
 const Projects = () => {
     return (
-        <section id="projects" className="flex flex-col">
-            <div className="flex flex-row">
+        <section id="projects" className="flex flex-col w-[600px]">
+            <div className="flex flex-row text-right">
                 <div>
                     image
                 </div>
-                <div>
+                <div className="flex flex-col">
                     <div>Type++</div>
                     <div>
                         This project was developed in the MERN stack. A gamified typing tester, this application can be used simply to test your typing speed, or take it to the next level with achievements, levels, and badges. Built with several packages including graphQL, JWT (JSON WEB Token), Tailwind, ChartJS and more.
@@ -14,7 +14,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="flex flex-row">
+            <div className="flex flex-row text-left">
                 <div>
                     <div>Turtle</div>
                     <div>
@@ -27,7 +27,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="flex flex-row">
+            <div className="flex flex-row text-right">
                 <div>
                     image
                 </div>
