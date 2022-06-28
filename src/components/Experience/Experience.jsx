@@ -89,21 +89,21 @@ const Experience = () => {
     }
 
     return (
-        <section id="exp" className='flex justify-center text-left w-[600px] m-auto mt-72'>
+        <section id="exp" className='flex justify-center text-left w-[800px] m-auto mt-72'>
 
             <div>
-                <div id='bofa' onClick={jobHandler}>
-                    <span id='bofa' onClick={jobHandler} className="text-2xl">Teletech Inc.</span>
+                <div id='bofa' onClick={jobHandler} className="border-2 border-black">
+                    <span id='bofa' onClick={jobHandler} className="text-2xl ">Teletech Inc.</span>
                 </div>
 
-                <div id='2u' onClick={jobHandler}>
-                    <span id='2u' onClick={jobHandler} className="text-2xl" >2U Inc.</span>
+                <div id='2u' onClick={jobHandler} className="border-2 border-black">
+                    <span id='2u' onClick={jobHandler} className="text-2xl " >2U Inc.</span>
                 </div>
-                <div id='tp' onClick={jobHandler}>
-                    <span id='tp' onClick={jobHandler} className="text-2xl">Teleperformance</span>
+                <div id='tp' onClick={jobHandler} className="border-2 border-black">
+                    <span id='tp' onClick={jobHandler} className="text-2xl ">Teleperformance</span>
                 </div>
-                <div id='dfs' onClick={jobHandler}>
-                    <span id='dfs' onClick={jobHandler} className="text-2xl">Discover</span>
+                <div id='dfs' onClick={jobHandler} className="border-2 border-black">
+                    <span id='dfs' onClick={jobHandler} className="text-2xl ">Discover</span>
                 </div>
             </div>
             {renderJob()}
