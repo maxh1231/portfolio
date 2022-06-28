@@ -89,11 +89,11 @@ const Experience = () => {
     }
 
     return (
-        <div className='flex flex-col justify-center items-center mt-72'>
-            <div>
+        <section className='flex flex-col mt-72 w-[800px] m-auto'>
+            <div className=''>
                 <h3>Where I've Worked</h3>
             </div>
-            <div id="exp" className='flex justify-center text-left w-[800px] m-auto '>
+            <div id="exp" className='flex justify-center text-left'>
 
                 <div>
                     <div id='bofa' onClick={jobHandler} className="border-2 border-black">
@@ -115,7 +115,7 @@ const Experience = () => {
 
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
