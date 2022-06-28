@@ -8,7 +8,7 @@ const Experience = () => {
             return (
                 <div className='ml-4'>
                     <div>
-                        <h2 className='text-2xl'>Claims Analyst</h2>
+                        <h2 className='text-2xl'>Claims Analyst @ TTEC</h2>
                     </div>
                     <div>
                         <p className='text-xl'>May 2020 - Present</p>
@@ -24,7 +24,7 @@ const Experience = () => {
             return (
                 <div className='ml-4'>
                     <div>
-                        <h2 className='text-2xl' >Tutor & Grader</h2>
+                        <h2 className='text-2xl' >Tutor & Grader @ 2U</h2>
                     </div>
                     <div>
                         <p className='text-xl'>March 2022 - Present</p>
@@ -40,7 +40,7 @@ const Experience = () => {
             return (
                 <div className='ml-4'>
                     <div>
-                        <h2 className='text-2xl'>Property Insurance Agent</h2>
+                        <h2 className='text-2xl'>Property Insurance Agent @ Teleperformance</h2>
                     </div>
                     <div>
                         <p className='text-xl'>August 2019 - March 2020</p>
@@ -56,7 +56,7 @@ const Experience = () => {
             return (
                 <div className='ml-4'>
                     <div>
-                        <h2 className='text-2xl'>Account Manager</h2>
+                        <h2 className='text-2xl'>Account Manager @ Discover Financial Services</h2>
                     </div>
                     <div>
                         <p className='text-xl'>October 2017 - August 2019</p>
