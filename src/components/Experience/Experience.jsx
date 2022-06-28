@@ -8,7 +8,7 @@ const Experience = () => {
             return (
                 <div className='ml-4'>
                     <div>
-                        <h2 className='text-2xl'>Claims Analyst</h2>
+                        <h2 className='text-2xl'>Claims Analyst @ TTEC</h2>
                     </div>
                     <div>
                         <p className='text-xl'>May 2020 - Present</p>
@@ -24,7 +24,7 @@ const Experience = () => {
             return (
                 <div className='ml-4'>
                     <div>
-                        <h2 className='text-2xl' >Tutor & Grader</h2>
+                        <h2 className='text-2xl' >Tutor & Grader @ 2U</h2>
                     </div>
                     <div>
                         <p className='text-xl'>March 2022 - Present</p>
@@ -40,7 +40,7 @@ const Experience = () => {
             return (
                 <div className='ml-4'>
                     <div>
-                        <h2 className='text-2xl'>Property Insurance Agent</h2>
+                        <h2 className='text-2xl'>Property Insurance Agent @ Teleperformance</h2>
                     </div>
                     <div>
                         <p className='text-xl'>August 2019 - March 2020</p>
@@ -56,7 +56,7 @@ const Experience = () => {
             return (
                 <div className='ml-4'>
                     <div>
-                        <h2 className='text-2xl'>Account Manager</h2>
+                        <h2 className='text-2xl'>Account Manager @ Discover Financial Services</h2>
                     </div>
                     <div>
                         <p className='text-xl'>October 2017 - August 2019</p>
@@ -89,26 +89,31 @@ const Experience = () => {
     }
 
     return (
-        <section id="exp" className='flex justify-center text-left w-[600px] m-auto mt-72'>
-
-            <div>
-                <div id='bofa' onClick={jobHandler}>
-                    <span id='bofa' onClick={jobHandler} className="text-2xl">Teletech Inc.</span>
-                </div>
-
-                <div id='2u' onClick={jobHandler}>
-                    <span id='2u' onClick={jobHandler} className="text-2xl" >2U Inc.</span>
-                </div>
-                <div id='tp' onClick={jobHandler}>
-                    <span id='tp' onClick={jobHandler} className="text-2xl">Teleperformance</span>
-                </div>
-                <div id='dfs' onClick={jobHandler}>
-                    <span id='dfs' onClick={jobHandler} className="text-2xl">Discover</span>
-                </div>
+        <section className='flex flex-col mt-72 w-[800px] m-auto'>
+            <div className='text-4xl text-left my-4'>
+                <h3>Where I've Worked</h3>
             </div>
-            {renderJob()}
-            <div>
+            <div id="exp" className='flex justify-center text-left'>
 
+                <div>
+                    <div id='bofa' onClick={jobHandler} className="border-2 border-black">
+                        <span id='bofa' onClick={jobHandler} className="text-2xl ">Teletech Inc.</span>
+                    </div>
+
+                    <div id='2u' onClick={jobHandler} className="border-2 border-black">
+                        <span id='2u' onClick={jobHandler} className="text-2xl " >2U Inc.</span>
+                    </div>
+                    <div id='tp' onClick={jobHandler} className="border-2 border-black">
+                        <span id='tp' onClick={jobHandler} className="text-2xl ">Teleperformance</span>
+                    </div>
+                    <div id='dfs' onClick={jobHandler} className="border-2 border-black">
+                        <span id='dfs' onClick={jobHandler} className="text-2xl ">Discover</span>
+                    </div>
+                </div>
+                {renderJob()}
+                <div>
+
+                </div>
             </div>
         </section>
     )
