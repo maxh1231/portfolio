@@ -89,28 +89,33 @@ const Experience = () => {
     }
 
     return (
-        <section id="exp" className='flex justify-center text-left w-[800px] m-auto mt-72'>
-
+        <div className='flex flex-col justify-center items-center mt-72'>
             <div>
-                <div id='bofa' onClick={jobHandler} className="border-2 border-black">
-                    <span id='bofa' onClick={jobHandler} className="text-2xl ">Teletech Inc.</span>
-                </div>
+                <h3>Where I've Worked</h3>
+            </div>
+            <div id="exp" className='flex justify-center text-left w-[800px] m-auto '>
 
-                <div id='2u' onClick={jobHandler} className="border-2 border-black">
-                    <span id='2u' onClick={jobHandler} className="text-2xl " >2U Inc.</span>
+                <div>
+                    <div id='bofa' onClick={jobHandler} className="border-2 border-black">
+                        <span id='bofa' onClick={jobHandler} className="text-2xl ">Teletech Inc.</span>
+                    </div>
+
+                    <div id='2u' onClick={jobHandler} className="border-2 border-black">
+                        <span id='2u' onClick={jobHandler} className="text-2xl " >2U Inc.</span>
+                    </div>
+                    <div id='tp' onClick={jobHandler} className="border-2 border-black">
+                        <span id='tp' onClick={jobHandler} className="text-2xl ">Teleperformance</span>
+                    </div>
+                    <div id='dfs' onClick={jobHandler} className="border-2 border-black">
+                        <span id='dfs' onClick={jobHandler} className="text-2xl ">Discover</span>
+                    </div>
                 </div>
-                <div id='tp' onClick={jobHandler} className="border-2 border-black">
-                    <span id='tp' onClick={jobHandler} className="text-2xl ">Teleperformance</span>
-                </div>
-                <div id='dfs' onClick={jobHandler} className="border-2 border-black">
-                    <span id='dfs' onClick={jobHandler} className="text-2xl ">Discover</span>
+                {renderJob()}
+                <div>
+
                 </div>
             </div>
-            {renderJob()}
-            <div>
-
-            </div>
-        </section>
+        </div>
     )
 }
 
