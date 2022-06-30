@@ -2,7 +2,7 @@ const Landing = () => {
     return (
         <section className="text-left flex flex-col h-screen justify-center w-[800px] m-auto">
             <div>
-                <p className="text-4xl ">Hello</p>
+                <p className="text-4xl text-blue-white ">Hello</p>
             </div>
             <div>
                 <p className="text-6xl ">Max Humpherys</p>

@@ -2,7 +2,7 @@ const About = () => {
     return (
         <section id="about" className="flex flex-col text-left w-[800px] m-auto">
             <div>
-                <h2 className="text-4xl text-blue-white">About Me</h2>
+                <h2 className="text-4xl text-blue-white"><span className="text-xl text-light-blue">01. </span>About Me</h2>
             </div>
             <div>
                 <p className="text-2xl text-grey">
