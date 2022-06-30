@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Dark blue: #03045e */
+/* in the middle: #00b4d8 */
+/* Very light blue/white : #caf0f8 */
+
 body {
   margin: 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Gantari', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
