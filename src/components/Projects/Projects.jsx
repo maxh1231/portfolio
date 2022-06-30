@@ -2,7 +2,7 @@ const Projects = () => {
     return (
         <section id="projects" className="flex flex-col w-[800px] m-auto mt-72">
             <div>
-                <h3 className="text-4xl text-left text-blue-white"><span>03. </span>Projects</h3>
+                <h3 className="text-4xl text-left text-blue-white"><span className="text-xl text-light-blue">03. </span>Projects</h3>
             </div>
 
             <div>
