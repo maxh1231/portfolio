@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Dark blue: #03045e */
+/* in the middle: #00b4d8 */
+/* Very light blue/white : #caf0f8 */
+
 body {
   margin: 0;
   font-family: 'Oswald', sans-serif;
