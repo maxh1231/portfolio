@@ -8,7 +8,7 @@ const Experience = () => {
             return (
                 <div className='ml-4'>
                     <div>
-                        <h2 className='text-2xl'>Claims Analyst <span className='text-light-blue'>@ TTEC</span></h2>
+                        <h2 className='text-2xl text-blue-white'>Claims Analyst <span className='text-light-blue'>@ TTEC</span></h2>
                     </div>
                     <div>
                         <p className='text-xl'>May 2020 - Present</p>
@@ -24,7 +24,7 @@ const Experience = () => {
             return (
                 <div className='ml-4'>
                     <div>
-                        <h2 className='text-2xl' >Tutor & Grader <span className='text-light-blue'>@ 2U</span></h2>
+                        <h2 className='text-2xl text-blue-white' >Tutor & Grader <span className='text-light-blue'>@ 2U</span></h2>
                     </div>
                     <div>
                         <p className='text-xl'>March 2022 - Present</p>
@@ -40,7 +40,7 @@ const Experience = () => {
             return (
                 <div className='ml-4'>
                     <div>
-                        <h2 className='text-2xl'>Property Insurance Agent <span className='text-light-blue'>@ Teleperformance</span></h2>
+                        <h2 className='text-2xl text-blue-white'>Property Insurance Agent <span className='text-light-blue'>@ Teleperformance</span></h2>
                     </div>
                     <div>
                         <p className='text-xl'>August 2019 - March 2020</p>
@@ -56,7 +56,7 @@ const Experience = () => {
             return (
                 <div className='ml-4'>
                     <div>
-                        <h2 className='text-2xl'>Account Manager <span className='text-light-blue'>@ Discover Financial Services</span></h2>
+                        <h2 className='text-2xl text-blue-white'>Account Manager <span className='text-light-blue'>@ Discover Financial Services</span></h2>
                     </div>
                     <div>
                         <p className='text-xl'>October 2017 - August 2019</p>
