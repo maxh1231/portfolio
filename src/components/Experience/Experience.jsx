@@ -11,7 +11,7 @@ const Experience = () => {
                         <h2 className='text-2xl text-blue-white'>Claims Analyst <span className='text-light-blue'>@ TTEC</span></h2>
                     </div>
                     <div>
-                        <p className='text-xl'>May 2020 - Present</p>
+                        <p className='text-xl text-grey'>May 2020 - Present</p>
                     </div>
                     <div>
                         <p className='text-xl'>Investigate customer reported fraud to determine a responsible and appropriate decision. Navigate multiple systems efficiently to assist in the determination process.</p>
@@ -27,7 +27,7 @@ const Experience = () => {
                         <h2 className='text-2xl text-blue-white' >Tutor & Grader <span className='text-light-blue'>@ 2U</span></h2>
                     </div>
                     <div>
-                        <p className='text-xl'>March 2022 - Present</p>
+                        <p className='text-xl text-grey'>March 2022 - Present</p>
                     </div>
                     <div>
                         <p className='text-xl'>Tutor students that request additional assistance in categories of University of Utah's Full Stack Coding Bootcamp.</p>
@@ -43,7 +43,7 @@ const Experience = () => {
                         <h2 className='text-2xl text-blue-white'>Property Insurance Agent <span className='text-light-blue'>@ Teleperformance</span></h2>
                     </div>
                     <div>
-                        <p className='text-xl'>August 2019 - March 2020</p>
+                        <p className='text-xl text-grey'>August 2019 - March 2020</p>
                     </div>
                     <div>
                         <p className='text-xl'>Licensed property insurance agent in 46 states. Assist customers to enroll in Auto, Home and Renters insurance. Service policies by making adjustments per customer requests.</p>
@@ -59,7 +59,7 @@ const Experience = () => {
                         <h2 className='text-2xl text-blue-white'>Account Manager <span className='text-light-blue'>@ Discover Financial Services</span></h2>
                     </div>
                     <div>
-                        <p className='text-xl'>October 2017 - August 2019</p>
+                        <p className='text-xl text-grey'>October 2017 - August 2019</p>
                     </div>
                     <div>
                         <p className='text-xl'>Spoke with a multitude of customers with varying circumstances. Providing great customer service to find the best solutions for each individual while maintaining high performance metrics.</p>
