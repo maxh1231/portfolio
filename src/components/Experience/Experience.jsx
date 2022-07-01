@@ -8,13 +8,13 @@ const Experience = () => {
             return (
                 <div className='ml-4'>
                     <div>
-                        <h2 className='text-2xl'>Claims Analyst @ TTEC</h2>
+                        <h2 className='text-2xl text-blue-white'>Claims Analyst <span className='text-light-blue'>@ TTEC</span></h2>
                     </div>
                     <div>
-                        <p className='text-xl'>May 2020 - Present</p>
+                        <p className='text-xl text-grey'>May 2020 - Present</p>
                     </div>
                     <div>
-                        <p className='text-xl'>Investigate customer reported fraud to determine a responsible and appropriate decision. Navigate multiple systems efficiently to assist in the determination process.</p>
+                        <p className='text-xl text-grey'>Investigate customer reported fraud to determine a responsible and appropriate decision. Navigate multiple systems efficiently to assist in the determination process.</p>
                     </div>
                 </div>
             )
@@ -24,13 +24,13 @@ const Experience = () => {
             return (
                 <div className='ml-4'>
                     <div>
-                        <h2 className='text-2xl' >Tutor & Grader @ 2U</h2>
+                        <h2 className='text-2xl text-blue-white' >Tutor & Grader <span className='text-light-blue'>@ 2U</span></h2>
                     </div>
                     <div>
-                        <p className='text-xl'>March 2022 - Present</p>
+                        <p className='text-xl text-grey'>March 2022 - Present</p>
                     </div>
                     <div>
-                        <p className='text-xl'>Tutor students that request additional assistance in categories of University of Utah's Full Stack Coding Bootcamp.</p>
+                        <p className='text-xl text-grey'>Tutor students that request additional assistance in categories of University of Utah's Full Stack Coding Bootcamp.</p>
                     </div>
                 </div>
             )
@@ -40,13 +40,13 @@ const Experience = () => {
             return (
                 <div className='ml-4'>
                     <div>
-                        <h2 className='text-2xl'>Property Insurance Agent @ Teleperformance</h2>
+                        <h2 className='text-2xl text-blue-white'>Property Insurance Agent <span className='text-light-blue'>@ Teleperformance</span></h2>
                     </div>
                     <div>
-                        <p className='text-xl'>August 2019 - March 2020</p>
+                        <p className='text-xl text-grey'>August 2019 - March 2020</p>
                     </div>
                     <div>
-                        <p className='text-xl'>Licensed property insurance agent in 46 states. Assist customers to enroll in Auto, Home and Renters insurance. Service policies by making adjustments per customer requests.</p>
+                        <p className='text-xl text-grey'>Licensed property insurance agent in 46 states. Assist customers to enroll in Auto, Home and Renters insurance. Service policies by making adjustments per customer requests.</p>
                     </div>
                 </div>
             )
@@ -56,13 +56,13 @@ const Experience = () => {
             return (
                 <div className='ml-4'>
                     <div>
-                        <h2 className='text-2xl'>Account Manager @ Discover Financial Services</h2>
+                        <h2 className='text-2xl text-blue-white'>Account Manager <span className='text-light-blue'>@ Discover Financial Services</span></h2>
                     </div>
                     <div>
-                        <p className='text-xl'>October 2017 - August 2019</p>
+                        <p className='text-xl text-grey'>October 2017 - August 2019</p>
                     </div>
                     <div>
-                        <p className='text-xl'>Spoke with a multitude of customers with varying circumstances. Providing great customer service to find the best solutions for each individual while maintaining high performance metrics.</p>
+                        <p className='text-xl text-grey'>Spoke with a multitude of customers with varying circumstances. Providing great customer service to find the best solutions for each individual while maintaining high performance metrics.</p>
                     </div>
                 </div>
             )
@@ -97,17 +97,39 @@ const Experience = () => {
 
                 <div>
                     <div id='bofa' onClick={jobHandler} className="border-2 border-black">
-                        <span id='bofa' onClick={jobHandler} className="text-2xl ">Teletech Inc.</span>
+                        {currentJob === 0 ? (
+                            <span id='bofa' onClick={jobHandler} className="text-2xl text-light-blue hover:cursor-pointer ">Teletech Inc.</span>
+                        ) :
+                            (
+                                <span id='bofa' onClick={jobHandler} className="text-2xl text-grey hover:cursor-pointer ">Teletech Inc.</span>
+                            )}
                     </div>
 
                     <div id='2u' onClick={jobHandler} className="border-2 border-black">
-                        <span id='2u' onClick={jobHandler} className="text-2xl " >2U Inc.</span>
+                        {currentJob === 1 ? (
+                            <span id='2u' onClick={jobHandler} className="text-2xl text-light-blue hover:cursor-pointer " >2U Inc.</span>
+                        ) :
+                            (
+                                <span id='2u' onClick={jobHandler} className="text-2xl text-grey hover:cursor-pointer " >2U Inc.</span>
+                            )}
                     </div>
+
                     <div id='tp' onClick={jobHandler} className="border-2 border-black">
-                        <span id='tp' onClick={jobHandler} className="text-2xl ">Teleperformance</span>
+                        {currentJob === 2 ? (
+                            <span id='tp' onClick={jobHandler} className="text-2xl text-light-blue hover:cursor-pointer ">Teleperformance</span>
+                        ) :
+                            (
+                                <span id='tp' onClick={jobHandler} className="text-2xl text-grey hover:cursor-pointer ">Teleperformance</span>
+                            )}
                     </div>
+
                     <div id='dfs' onClick={jobHandler} className="border-2 border-black">
-                        <span id='dfs' onClick={jobHandler} className="text-2xl ">Discover</span>
+                        {currentJob === 3 ? (
+                            <span id='dfs' onClick={jobHandler} className="text-2xl text-light-blue hover:cursor-pointer ">Discover</span>
+                        ) :
+                            (
+                                <span id='dfs' onClick={jobHandler} className="text-2xl text-grey hover:cursor-pointer ">Discover</span>
+                            )}
                     </div>
                 </div>
                 {renderJob()}
