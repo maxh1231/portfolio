@@ -14,7 +14,7 @@ const Experience = () => {
                         <p className='text-xl text-grey'>May 2020 - Present</p>
                     </div>
                     <div>
-                        <p className='text-xl'>Investigate customer reported fraud to determine a responsible and appropriate decision. Navigate multiple systems efficiently to assist in the determination process.</p>
+                        <p className='text-xl text-grey'>Investigate customer reported fraud to determine a responsible and appropriate decision. Navigate multiple systems efficiently to assist in the determination process.</p>
                     </div>
                 </div>
             )
@@ -30,7 +30,7 @@ const Experience = () => {
                         <p className='text-xl text-grey'>March 2022 - Present</p>
                     </div>
                     <div>
-                        <p className='text-xl'>Tutor students that request additional assistance in categories of University of Utah's Full Stack Coding Bootcamp.</p>
+                        <p className='text-xl text-grey'>Tutor students that request additional assistance in categories of University of Utah's Full Stack Coding Bootcamp.</p>
                     </div>
                 </div>
             )
@@ -46,7 +46,7 @@ const Experience = () => {
                         <p className='text-xl text-grey'>August 2019 - March 2020</p>
                     </div>
                     <div>
-                        <p className='text-xl'>Licensed property insurance agent in 46 states. Assist customers to enroll in Auto, Home and Renters insurance. Service policies by making adjustments per customer requests.</p>
+                        <p className='text-xl text-grey'>Licensed property insurance agent in 46 states. Assist customers to enroll in Auto, Home and Renters insurance. Service policies by making adjustments per customer requests.</p>
                     </div>
                 </div>
             )
@@ -62,7 +62,7 @@ const Experience = () => {
                         <p className='text-xl text-grey'>October 2017 - August 2019</p>
                     </div>
                     <div>
-                        <p className='text-xl'>Spoke with a multitude of customers with varying circumstances. Providing great customer service to find the best solutions for each individual while maintaining high performance metrics.</p>
+                        <p className='text-xl text-grey'>Spoke with a multitude of customers with varying circumstances. Providing great customer service to find the best solutions for each individual while maintaining high performance metrics.</p>
                     </div>
                 </div>
             )
