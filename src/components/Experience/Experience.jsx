@@ -97,17 +97,39 @@ const Experience = () => {
 
                 <div>
                     <div id='bofa' onClick={jobHandler} className="border-2 border-black">
-                        <span id='bofa' onClick={jobHandler} className="text-2xl ">Teletech Inc.</span>
+                        {currentJob === 0 ? (
+                            <span id='bofa' onClick={jobHandler} className="text-2xl text-light-blue ">Teletech Inc.</span>
+                        ) :
+                            (
+                                <span id='bofa' onClick={jobHandler} className="text-2xl ">Teletech Inc.</span>
+                            )}
                     </div>
 
                     <div id='2u' onClick={jobHandler} className="border-2 border-black">
-                        <span id='2u' onClick={jobHandler} className="text-2xl " >2U Inc.</span>
+                        {currentJob === 1 ? (
+                            <span id='2u' onClick={jobHandler} className="text-2xl text-light-blue " >2U Inc.</span>
+                        ) :
+                            (
+                                <span id='2u' onClick={jobHandler} className="text-2xl " >2U Inc.</span>
+                            )}
                     </div>
+
                     <div id='tp' onClick={jobHandler} className="border-2 border-black">
-                        <span id='tp' onClick={jobHandler} className="text-2xl ">Teleperformance</span>
+                        {currentJob === 2 ? (
+                            <span id='tp' onClick={jobHandler} className="text-2xl text-light-blue ">Teleperformance</span>
+                        ) :
+                            (
+                                <span id='tp' onClick={jobHandler} className="text-2xl ">Teleperformance</span>
+                            )}
                     </div>
+
                     <div id='dfs' onClick={jobHandler} className="border-2 border-black">
-                        <span id='dfs' onClick={jobHandler} className="text-2xl ">Discover</span>
+                        {currentJob === 3 ? (
+                            <span id='dfs' onClick={jobHandler} className="text-2xl text-light-blue ">Discover</span>
+                        ) :
+                            (
+                                <span id='dfs' onClick={jobHandler} className="text-2xl ">Discover</span>
+                            )}
                     </div>
                 </div>
                 {renderJob()}
