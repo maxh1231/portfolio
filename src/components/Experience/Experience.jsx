@@ -101,7 +101,7 @@ const Experience = () => {
                             <span id='bofa' onClick={jobHandler} className="text-2xl text-light-blue ">Teletech Inc.</span>
                         ) :
                             (
-                                <span id='bofa' onClick={jobHandler} className="text-2xl ">Teletech Inc.</span>
+                                <span id='bofa' onClick={jobHandler} className="text-2xl text-grey ">Teletech Inc.</span>
                             )}
                     </div>
 
@@ -110,7 +110,7 @@ const Experience = () => {
                             <span id='2u' onClick={jobHandler} className="text-2xl text-light-blue " >2U Inc.</span>
                         ) :
                             (
-                                <span id='2u' onClick={jobHandler} className="text-2xl " >2U Inc.</span>
+                                <span id='2u' onClick={jobHandler} className="text-2xl text-grey " >2U Inc.</span>
                             )}
                     </div>
 
@@ -119,7 +119,7 @@ const Experience = () => {
                             <span id='tp' onClick={jobHandler} className="text-2xl text-light-blue ">Teleperformance</span>
                         ) :
                             (
-                                <span id='tp' onClick={jobHandler} className="text-2xl ">Teleperformance</span>
+                                <span id='tp' onClick={jobHandler} className="text-2xl text-grey ">Teleperformance</span>
                             )}
                     </div>
 
@@ -128,7 +128,7 @@ const Experience = () => {
                             <span id='dfs' onClick={jobHandler} className="text-2xl text-light-blue ">Discover</span>
                         ) :
                             (
-                                <span id='dfs' onClick={jobHandler} className="text-2xl ">Discover</span>
+                                <span id='dfs' onClick={jobHandler} className="text-2xl text-grey ">Discover</span>
                             )}
                     </div>
                 </div>
