@@ -98,37 +98,37 @@ const Experience = () => {
                 <div>
                     <div id='bofa' onClick={jobHandler} className="border-2 border-black">
                         {currentJob === 0 ? (
-                            <span id='bofa' onClick={jobHandler} className="text-2xl text-light-blue ">Teletech Inc.</span>
+                            <span id='bofa' onClick={jobHandler} className="text-2xl text-light-blue hover:cursor-pointer ">Teletech Inc.</span>
                         ) :
                             (
-                                <span id='bofa' onClick={jobHandler} className="text-2xl text-grey ">Teletech Inc.</span>
+                                <span id='bofa' onClick={jobHandler} className="text-2xl text-grey hover:cursor-pointer ">Teletech Inc.</span>
                             )}
                     </div>
 
                     <div id='2u' onClick={jobHandler} className="border-2 border-black">
                         {currentJob === 1 ? (
-                            <span id='2u' onClick={jobHandler} className="text-2xl text-light-blue " >2U Inc.</span>
+                            <span id='2u' onClick={jobHandler} className="text-2xl text-light-blue hover:cursor-pointer " >2U Inc.</span>
                         ) :
                             (
-                                <span id='2u' onClick={jobHandler} className="text-2xl text-grey " >2U Inc.</span>
+                                <span id='2u' onClick={jobHandler} className="text-2xl text-grey hover:cursor-pointer " >2U Inc.</span>
                             )}
                     </div>
 
                     <div id='tp' onClick={jobHandler} className="border-2 border-black">
                         {currentJob === 2 ? (
-                            <span id='tp' onClick={jobHandler} className="text-2xl text-light-blue ">Teleperformance</span>
+                            <span id='tp' onClick={jobHandler} className="text-2xl text-light-blue hover:cursor-pointer ">Teleperformance</span>
                         ) :
                             (
-                                <span id='tp' onClick={jobHandler} className="text-2xl text-grey ">Teleperformance</span>
+                                <span id='tp' onClick={jobHandler} className="text-2xl text-grey hover:cursor-pointer ">Teleperformance</span>
                             )}
                     </div>
 
                     <div id='dfs' onClick={jobHandler} className="border-2 border-black">
                         {currentJob === 3 ? (
-                            <span id='dfs' onClick={jobHandler} className="text-2xl text-light-blue ">Discover</span>
+                            <span id='dfs' onClick={jobHandler} className="text-2xl text-light-blue hover:cursor-pointer ">Discover</span>
                         ) :
                             (
-                                <span id='dfs' onClick={jobHandler} className="text-2xl text-grey ">Discover</span>
+                                <span id='dfs' onClick={jobHandler} className="text-2xl text-grey hover:cursor-pointer ">Discover</span>
                             )}
                     </div>
                 </div>
