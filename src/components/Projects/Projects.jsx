@@ -12,7 +12,7 @@ const Projects = () => {
                     </div>
                     <div className="flex flex-col">
                         <div className="text-4xl text-blue-white">Type++</div>
-                        <div className="text-xl">
+                        <div className="text-xl text-grey">
                             This project was developed in the MERN stack. A gamified typing tester, this application can be used simply to test your typing speed, or take it to the next level with achievements, levels, and badges. Built with several packages including graphQL, JWT (JSON WEB Token), Tailwind, ChartJS and more.
                         </div>
                         <div className="text-lg">
@@ -25,7 +25,7 @@ const Projects = () => {
                 <div className="flex flex-row text-left">
                     <div>
                         <div className="text-4xl text-blue-white">Turtle</div>
-                        <div className="text-xl" >
+                        <div className="text-xl text-grey" >
                             Inspiried by the popular game Wordle. Turtle is a daily word guesser. With multiple modes, play once a day or as much as you'd like. Built in the MERN stack, utilizing Tailwind, PassportJS, graphQl, and more.
                         </div>
                         <div className="text-lg">
@@ -44,7 +44,7 @@ const Projects = () => {
                     </div>
                     <div>
                         <div className="text-4xl text-blue-white">#1Fan</div>
-                        <div className="text-xl">
+                        <div className="text-xl text-grey">
                             Music application for lovers of music. Create an account and favorite your top artists and albums, viewable from your customizable dashboard. Built with Express, mySQL, Tailwind and more.
                         </div>
                         <div className="text-lg">
