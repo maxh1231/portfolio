@@ -90,7 +90,7 @@ const Experience = () => {
 
     return (
         <section className='flex flex-col mt-72 w-[800px] m-auto'>
-            <div className='text-4xl text-left my-4'>
+            <div className='text-4xl text-left mb-6'>
                 <h3 className='text-blue-white'><span className="text-xl text-light-blue">02. </span>Where I've Worked</h3>
             </div>
             <div id="exp" className='flex justify-center text-left'>
