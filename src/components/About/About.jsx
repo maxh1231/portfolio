@@ -1,7 +1,7 @@
 const About = () => {
     return (
         <section id="about" className="flex flex-col text-left w-[800px] m-auto">
-            <div>
+            <div className="mb-6">
                 <h2 className="text-4xl text-blue-white"><span className="text-xl text-light-blue">01. </span>About Me</h2>
             </div>
             <div>
