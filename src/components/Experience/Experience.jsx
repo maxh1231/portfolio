@@ -10,10 +10,10 @@ const Experience = () => {
                     <div>
                         <h2 className='text-2xl text-blue-white'>Claims Analyst <span className='text-light-blue'>@ TTEC</span></h2>
                     </div>
-                    <div>
+                    <div className='mb-6'>
                         <p className='text-xl text-grey'>May 2020 - Present</p>
                     </div>
-                    <div>
+                    <div className=''>
                         <p className='text-xl text-grey'>Investigate customer reported fraud to determine a responsible and appropriate decision. Navigate multiple systems efficiently to assist in the determination process.</p>
                     </div>
                 </div>
@@ -26,7 +26,7 @@ const Experience = () => {
                     <div>
                         <h2 className='text-2xl text-blue-white' >Tutor & Grader <span className='text-light-blue'>@ 2U</span></h2>
                     </div>
-                    <div>
+                    <div className='mb-6'>
                         <p className='text-xl text-grey'>March 2022 - Present</p>
                     </div>
                     <div>
@@ -42,7 +42,7 @@ const Experience = () => {
                     <div>
                         <h2 className='text-2xl text-blue-white'>Property Insurance Agent <span className='text-light-blue'>@ Teleperformance</span></h2>
                     </div>
-                    <div>
+                    <div className='mb-6'>
                         <p className='text-xl text-grey'>August 2019 - March 2020</p>
                     </div>
                     <div>
@@ -58,7 +58,7 @@ const Experience = () => {
                     <div>
                         <h2 className='text-2xl text-blue-white'>Account Manager <span className='text-light-blue'>@ Discover Financial Services</span></h2>
                     </div>
-                    <div>
+                    <div className='mb-6'>
                         <p className='text-xl text-grey'>October 2017 - August 2019</p>
                     </div>
                     <div>
