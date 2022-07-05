@@ -6,6 +6,10 @@
 /* in the middle: #00b4d8 */
 /* Very light blue/white : #caf0f8 */
 
+html {
+  background-color: #0a192f;
+}
+
 body {
   margin: 0;
   font-family: 'Gantari', sans-serif;
