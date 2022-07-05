@@ -6,7 +6,7 @@ const Projects = () => {
             </div>
 
             <div>
-                <div className="flex flex-row text-right">
+                <div className="flex flex-row text-right mb-8">
                     <div>
                         image
                     </div>
@@ -22,7 +22,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-row text-left">
+                <div className="flex flex-row text-left mb-8">
                     <div>
                         <div className="text-4xl text-blue-white">Turtle</div>
                         <div className="text-xl text-grey" >
@@ -38,7 +38,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-row text-right">
+                <div className="flex flex-row text-right mb-8">
                     <div>
                         image
                     </div>
