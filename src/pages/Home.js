@@ -8,7 +8,7 @@ import Footer from "../components/Footer"
 
 const Home = () => {
     return (
-        <section>
+        <section className="App mx-12 my-6">
             <Nav />
             <Landing />
 

@@ -8,6 +8,8 @@
 
 html {
   background-color: #0a192f;
+  box-sizing: content-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -20,4 +22,27 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.footer {
+  width: -moz-calc(100% - 100px);
+  width: -webkit-calc(100% - 100px);
+  width: calc(100% - 100px);
+}
+
+body::-webkit-scrollbar {
+  width: .5em;
+
+}
+
+body::-webkit-scrollbar-button {
+  /* margin-top: 50px;
+  margin-bottom: 50px; */
+  height: 500px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #8d99ae;
+  border: solid 1px #0a192f;
+  border-radius: 10px;
 }

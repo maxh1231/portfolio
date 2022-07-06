@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <section></section>
+        <section className="footer fixed bottom-0 h-[200px] border-x-2 border-grey"></section>
     )
 }
 
