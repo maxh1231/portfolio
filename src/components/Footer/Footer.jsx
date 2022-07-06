@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <section></section>
+        <section className=" w-full h-[600px] border-x-2 border-grey">adfasf</section>
     )
 }
 
