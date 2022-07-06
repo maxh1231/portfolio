@@ -2,7 +2,7 @@ const Nav = () => {
     return (
         <header className="flex justify-between">
             <div>
-                <span className="text-4xl text-blue-white">Max Humpherys</span>
+                <span className="text-4xl text-light-blue">Max Humpherys</span>
             </div>
 
             <div>
