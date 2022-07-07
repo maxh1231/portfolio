@@ -96,7 +96,7 @@ const Experience = () => {
             <div id="exp" className='flex justify-center text-left'>
 
                 <div>
-                    <div id='bofa' onClick={jobHandler} className="mb-4 hover:bg-light-grey">
+                    <div id='bofa' onClick={jobHandler} className="mb-4 hover:bg-light-grey hover:cursor-pointer p-2">
                         {currentJob === 0 ? (
                             <span id='bofa' onClick={jobHandler} className="text-xl text-light-blue hover:cursor-pointer ">Teletech Inc.</span>
                         ) :
@@ -105,7 +105,7 @@ const Experience = () => {
                             )}
                     </div>
 
-                    <div id='2u' onClick={jobHandler} className="mb-4 hover:bg-light-grey">
+                    <div id='2u' onClick={jobHandler} className="mb-4 hover:bg-light-grey hover:cursor-pointer p-2">
                         {currentJob === 1 ? (
                             <span id='2u' onClick={jobHandler} className="text-xl text-light-blue hover:cursor-pointer " >2U Inc.</span>
                         ) :
@@ -114,7 +114,7 @@ const Experience = () => {
                             )}
                     </div>
 
-                    <div id='tp' onClick={jobHandler} className="mb-4 hover:bg-light-grey">
+                    <div id='tp' onClick={jobHandler} className="mb-4 hover:bg-light-grey hover:cursor-pointer p-2">
                         {currentJob === 2 ? (
                             <span id='tp' onClick={jobHandler} className="text-xl text-light-blue hover:cursor-pointer ">Teleperformance</span>
                         ) :
@@ -123,7 +123,7 @@ const Experience = () => {
                             )}
                     </div>
 
-                    <div id='dfs' onClick={jobHandler} className="mb-4 hover:bg-light-grey">
+                    <div id='dfs' onClick={jobHandler} className="mb-4 hover:bg-light-grey hover:cursor-pointer p-2">
                         {currentJob === 3 ? (
                             <span id='dfs' onClick={jobHandler} className="text-xl text-light-blue hover:cursor-pointer ">Discover</span>
                         ) :
