@@ -95,7 +95,7 @@ const Experience = () => {
             </div>
             <div id="exp" className='flex justify-center text-left'>
 
-                <div>
+                <div className='flex flex-col justify-center border-l-2 border-grey'>
                     <div id='bofa' onClick={jobHandler} className="mb-4 hover:bg-light-grey hover:cursor-pointer p-2">
                         {currentJob === 0 ? (
                             <span id='bofa' onClick={jobHandler} className="text-xl text-light-blue hover:cursor-pointer ">Teletech Inc.</span>
@@ -123,7 +123,7 @@ const Experience = () => {
                             )}
                     </div>
 
-                    <div id='dfs' onClick={jobHandler} className="mb-4 hover:bg-light-grey hover:cursor-pointer p-2">
+                    <div id='dfs' onClick={jobHandler} className="hover:bg-light-grey hover:cursor-pointer p-2">
                         {currentJob === 3 ? (
                             <span id='dfs' onClick={jobHandler} className="text-xl text-light-blue hover:cursor-pointer ">Discover</span>
                         ) :
