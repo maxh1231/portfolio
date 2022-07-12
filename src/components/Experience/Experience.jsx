@@ -123,7 +123,7 @@ const Experience = () => {
                             )}
                     </div>
 
-                    <div id='dfs' onClick={jobHandler} className="hover:bg-light-grey border-l-2 border-grey hover:cursor-pointer py-2 pr-2 pl-4">
+                    <div id='dfs' onClick={jobHandler} className={`hover:bg-light-grey border-l-2 ${currentJob === 3 ? "border-light-blue" : "border-grey "} hover:cursor-pointer py-2 pr-2 pl-4`}>
                         {currentJob === 3 ? (
                             <span id='dfs' onClick={jobHandler} className="text-xl text-light-blue hover:cursor-pointer ">Discover</span>
                         ) :
