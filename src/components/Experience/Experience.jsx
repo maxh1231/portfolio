@@ -94,47 +94,22 @@ const Experience = () => {
                 <h3 className='text-blue-white'><span className="text-xl text-light-blue">02. </span>Where I've Worked</h3>
             </div>
             <div id="exp" className='flex justify-center text-left'>
-
-                <div className=' flex flex-col justify-center border-l-2 border-grey'>
-                    <div id='bofa' onClick={jobHandler} className="mb-4 hover:bg-light-grey hover:cursor-pointer py-2 pr-2 pl-4">
-                        {currentJob === 0 ? (
-                            <span id='bofa' onClick={jobHandler} className="text-xl text-light-blue hover:cursor-pointer ">Teletech Inc.</span>
-                        ) :
-                            (
-                                <span id='bofa' onClick={jobHandler} className="text-xl text-grey hover:cursor-pointer ">Teletech Inc.</span>
-                            )}
+                <div className='flex flex-col justify-center'>
+                    <div id='bofa' onClick={jobHandler} className={`border-l-2 ${currentJob === 0 ? "border-light-blue" : "border-grey"} hover:bg-light-grey hover:cursor-pointer py-2 pr-2 pl-4`}>
+                        <span id='bofa' onClick={jobHandler} className={`text-xl ${currentJob === 0 ? "text-light-blue" : "text-grey"}  hover:cursor-pointer`}>Teletech Inc.</span>
                     </div>
-
-                    <div id='2u' onClick={jobHandler} className="mb-4 hover:bg-light-grey hover:cursor-pointer py-2 pr-2 pl-4">
-                        {currentJob === 1 ? (
-                            <span id='2u' onClick={jobHandler} className="text-xl text-light-blue hover:cursor-pointer " >2U Inc.</span>
-                        ) :
-                            (
-                                <span id='2u' onClick={jobHandler} className="text-xl text-grey hover:cursor-pointer " >2U Inc.</span>
-                            )}
+                    <div id='2u' onClick={jobHandler} className={`border-l-2 ${currentJob === 1 ? "border-light-blue" : "border-grey "} hover:bg-light-grey hover:cursor-pointer py-2 pr-2 pl-4`}>
+                        <span id='2u' onClick={jobHandler} className={`text-xl ${currentJob === 1 ? "text-light-blue" : "text-grey"} hover:cursor-pointer`}>2U Inc.</span>
                     </div>
-
-                    <div id='tp' onClick={jobHandler} className="mb-4 hover:bg-light-grey hover:cursor-pointer py-2 pr-2 pl-4">
-                        {currentJob === 2 ? (
-                            <span id='tp' onClick={jobHandler} className="text-xl text-light-blue hover:cursor-pointer ">Teleperformance</span>
-                        ) :
-                            (
-                                <span id='tp' onClick={jobHandler} className="text-xl text-grey hover:cursor-pointer ">Teleperformance</span>
-                            )}
+                    <div id='tp' onClick={jobHandler} className={`border-l-2 ${currentJob === 2 ? "border-light-blue" : "border-grey"} hover:bg-light-grey hover:cursor-pointer py-2 pr-2 pl-4`}>
+                        <span id='tp' onClick={jobHandler} className={`text-xl ${currentJob === 2 ? "text-light-blue" : "text-grey"} hover:cursor-pointer`}>Teleperformance</span>
                     </div>
-
-                    <div id='dfs' onClick={jobHandler} className="hover:bg-light-grey hover:cursor-pointer py-2 pr-2 pl-4">
-                        {currentJob === 3 ? (
-                            <span id='dfs' onClick={jobHandler} className="text-xl text-light-blue hover:cursor-pointer ">Discover</span>
-                        ) :
-                            (
-                                <span id='dfs' onClick={jobHandler} className="text-xl text-grey hover:cursor-pointer ">Discover</span>
-                            )}
+                    <div id='dfs' onClick={jobHandler} className={`hover:bg-light-grey border-l-2 ${currentJob === 3 ? "border-light-blue" : "border-grey"} hover:cursor-pointer py-2 pr-2 pl-4`}>
+                        <span id='dfs' onClick={jobHandler} className={`text-xl ${currentJob === 3 ? "text-light-blue" : "text-grey"} hover:cursor-pointer`}>Discover</span>
                     </div>
                 </div>
                 {renderJob()}
                 <div>
-
                 </div>
             </div>
         </section>
