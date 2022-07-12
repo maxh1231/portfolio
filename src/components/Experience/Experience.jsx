@@ -97,12 +97,7 @@ const Experience = () => {
 
                 <div className=' flex flex-col justify-center'>
                     <div id='bofa' onClick={jobHandler} className={` border-l-2 ${currentJob === 0 ? "border-light-blue" : "border-grey "} hover:bg-light-grey hover:cursor-pointer py-2 pr-2 pl-4`}>
-                        {currentJob === 0 ? (
-                            <span id='bofa' onClick={jobHandler} className="text-xl text-light-blue  hover:cursor-pointer ">Teletech Inc.</span>
-                        ) :
-                            (
-                                <span id='bofa' onClick={jobHandler} className="text-xl text-grey hover:cursor-pointer ">Teletech Inc.</span>
-                            )}
+                        <span id='bofa' onClick={jobHandler} className={` text-xl ${currentJob === 0 ? "text-light-blue" : "text-grey"}  hover:cursor-pointer `}>Teletech Inc.</span>
                     </div>
 
                     <div id='2u' onClick={jobHandler} className={` border-l-2 ${currentJob === 1 ? "border-light-blue" : "border-grey "} hover:bg-light-grey hover:cursor-pointer py-2 pr-2 pl-4`}>
