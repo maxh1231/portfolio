@@ -114,7 +114,7 @@ const Experience = () => {
                             )}
                     </div>
 
-                    <div id='tp' onClick={jobHandler} className=" border-l-2 border-grey hover:bg-light-grey hover:cursor-pointer py-2 pr-2 pl-4">
+                    <div id='tp' onClick={jobHandler} className={`border-l-2 ${currentJob === 2 ? "border-light-blue" : "border-grey "} hover:bg-light-grey hover:cursor-pointer py-2 pr-2 pl-4`}>
                         {currentJob === 2 ? (
                             <span id='tp' onClick={jobHandler} className="text-xl text-light-blue hover:cursor-pointer ">Teleperformance</span>
                         ) :
