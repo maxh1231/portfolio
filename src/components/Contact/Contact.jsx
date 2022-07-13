@@ -8,7 +8,7 @@ const Contact = () => {
                 <p className="text-2xl text-blue-white">Let's collaborate, my inbox is always open.</p>
             </div>
             <div>
-                <button className="my-12 text-2xl px-2 py-2 text-light-blue border-2 border-light-blue rounded-md hover:text-light-blue">
+                <button className="my-12 text-2xl px-2 py-2 text-light-blue border-2 border-light-blue rounded-md hover:bg-light-grey">
                     Email
                 </button>
             </div>
