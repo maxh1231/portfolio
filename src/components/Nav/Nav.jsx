@@ -20,7 +20,7 @@ const Nav = () => {
                         <a href="#contact" className="text-2xl pl-6 pr-6 text-blue-white hover:text-light-blue"><span className="text-base text-light-blue">03. </span>Contact</a>
                     </li>
                     <li>
-                        <a href="https://docs.google.com/document/d/1S9RU3scZyjFcD91g1vVpjavVcvp9GqvFuitpEzQ5CCA/edit" target="_blank" className="text-2xl px-2 py-2 text-light-blue border-2 border-light-blue rounded-md hover:text-light-blue">Resume</a>
+                        <a href="https://docs.google.com/document/d/1S9RU3scZyjFcD91g1vVpjavVcvp9GqvFuitpEzQ5CCA/edit" target="_blank" className="text-2xl px-2 py-2 text-light-blue border-2 border-light-blue rounded-md hover:text-light-blue hover:bg-light-grey">Resume</a>
                     </li>
                 </ul>
             </div>
