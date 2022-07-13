@@ -8,7 +8,7 @@ const Contact = () => {
                 <p className="text-2xl text-blue-white">My inbox is always open.</p>
             </div>
             <div>
-                <button className="text-2xl">
+                <button className="text-2xl px-2 py-2 text-light-blue border-2 border-light-blue rounded-md hover:text-light-blue">
                     Send an email!
                 </button>
             </div>
