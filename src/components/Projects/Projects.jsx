@@ -16,7 +16,7 @@ const Projects = () => {
                     </div>
                     <div className="flex flex-col">
                         <div className="text-4xl text-blue-white my-4">Type++</div>
-                        <div className="relative w-[600px] text-lg text-grey">
+                        <div className="relative w-[600px] text-lg text-grey bg-dark-blue-bg p-7 rounded-lg">
                             This project was developed in the MERN stack. A gamified typing tester, this application can be used simply to test your typing speed, or take it to the next level with achievements, levels, and badges. Built with several packages including graphQL, JWT (JSON WEB Token), Tailwind, ChartJS and more.
                         </div>
                         <div className="text-lg">
@@ -29,7 +29,7 @@ const Projects = () => {
                 <div className="flex flex-row text-left mb-8 items-center">
                     <div>
                         <div className="text-4xl text-blue-white my-4">Turtle</div>
-                        <div className="relative text-xl text-grey" >
+                        <div className="relative text-xl text-grey bg-dark-blue-bg p-7 rounded-lg" >
                             Inspiried by the popular game Wordle. Turtle is a daily word guesser. With multiple modes, play once a day or as much as you'd like. Built in the MERN stack, utilizing Tailwind, PassportJS, graphQl, and more.
                         </div>
                         <div className="text-lg">
@@ -48,7 +48,7 @@ const Projects = () => {
                     </div>
                     <div>
                         <div className="text-4xl text-blue-white my-4">#1Fan</div>
-                        <div className="relative text-xl text-grey">
+                        <div className="relative text-xl text-grey bg-dark-blue-bg p-7 rounded-lg">
                             Music application for lovers of music. Create an account and favorite your top artists and albums, viewable from your customizable dashboard. Built with Express, mySQL, Tailwind and more.
                         </div>
                         <div className="text-lg">
