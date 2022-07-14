@@ -1,6 +1,6 @@
-import no1fan from '../../assets/no1fan (Small).JPG'
-import turtle from '../../assets/turtle (Small).JPG'
-import typeplusplus from '../../assets/type++ (Small).JPG'
+import no1fan from '../../assets/no1fan.JPG'
+import turtle from '../../assets/turtle.JPG'
+import typeplusplus from '../../assets/type++.JPG'
 
 const Projects = () => {
     return (
