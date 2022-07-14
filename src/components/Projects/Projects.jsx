@@ -1,3 +1,7 @@
+import no1fan from '../../assets/no1fan (Small).JPG'
+import turtle from '../../assets/turtle (Small).JPG'
+import typeplusplus from '../../assets/type++ (Small).JPG'
+
 const Projects = () => {
     return (
         <section id="projects" className="flex flex-col w-[800px] m-auto mt-72">
@@ -8,7 +12,7 @@ const Projects = () => {
             <div>
                 <div className="flex flex-row text-right mb-8">
                     <div>
-                        image
+                        <img src={typeplusplus} alt="image of Type++ project"></img>
                     </div>
                     <div className="flex flex-col">
                         <div className="text-4xl text-blue-white my-4">Type++</div>
@@ -34,13 +38,13 @@ const Projects = () => {
                         </div>
                     </div>
                     <div>
-                        image
+                        <img src={turtle} alt="image of Turtle project"></img>
                     </div>
                 </div>
 
                 <div className="flex flex-row text-right mb-8">
                     <div>
-                        image
+                        <img src={no1fan} alt="image of No. 1 Fan project"></img>
                     </div>
                     <div>
                         <div className="text-4xl text-blue-white my-4">#1Fan</div>
