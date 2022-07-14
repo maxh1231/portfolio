@@ -10,9 +10,9 @@ const Projects = () => {
             </div>
 
             <div>
-                <div className="flex flex-row text-right mb-8">
-                    <div>
-                        <img src={typeplusplus} alt="image of Type++ project"></img>
+                <div className="flex flex-row text-right mb-8 items-center">
+                    <div className=''>
+                        <img src={typeplusplus} alt="image of Type++ project" className='w-[1200px]'></img>
                     </div>
                     <div className="flex flex-col">
                         <div className="text-4xl text-blue-white my-4">Type++</div>
@@ -26,7 +26,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-row text-left mb-8">
+                <div className="flex flex-row text-left mb-8 items-center">
                     <div>
                         <div className="text-4xl text-blue-white my-4">Turtle</div>
                         <div className="text-xl text-grey" >
@@ -38,13 +38,13 @@ const Projects = () => {
                         </div>
                     </div>
                     <div>
-                        <img src={turtle} alt="image of Turtle project"></img>
+                        <img src={turtle} alt="image of Turtle project" className='w-[1200px]'></img>
                     </div>
                 </div>
 
-                <div className="flex flex-row text-right mb-8">
+                <div className="flex flex-row text-right mb-8 items-center">
                     <div>
-                        <img src={no1fan} alt="image of No. 1 Fan project"></img>
+                        <img src={no1fan} alt="image of No. 1 Fan project" className='w-[1200px]'></img>
                     </div>
                     <div>
                         <div className="text-4xl text-blue-white my-4">#1Fan</div>
