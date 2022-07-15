@@ -46,3 +46,17 @@ body::-webkit-scrollbar-thumb {
   border: solid 1px #0a192f;
   border-radius: 10px;
 }
+
+.main {
+  background-color: #00b4d8;
+  z-index: 999;
+}
+
+.overlay {
+  opacity: .75;
+}
+
+.overlay:hover {
+  opacity: 1;
+  cursor: pointer;
+}

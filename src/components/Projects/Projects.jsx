@@ -1,6 +1,6 @@
-// import no1fan from '../../assets/no1fan.JPG'
-// import turtle from '../../assets/turtle.JPG'
-// import typeplusplus from '../../assets/type++.JPG'
+import no1fan from '../../assets/no1fan.JPG'
+import turtle from '../../assets/turtle.JPG'
+import typeplusplus from '../../assets/type++.JPG'
 
 const Projects = () => {
     return (
@@ -11,12 +11,14 @@ const Projects = () => {
 
             <div>
                 <div className="flex flex-row text-right mb-8 items-center">
-                    <div className="bg-typeplusplus w-[600px] h-[300px] bg-cover">
-                        {/* <img src={typeplusplus} alt="image of Type++ project" className='bg-light-blue'></img> */}
+                    <div className="main">
+                        <div className="overlay">
+                            <img src={typeplusplus} alt="image of Type++ project"></img>
+                        </div>
                     </div>
                     <div className="flex flex-col">
                         <div className="text-4xl text-blue-white my-4">Type++</div>
-                        <div className="relative w-[600px] text-lg text-grey bg-dark-blue-bg p-7 rounded-lg">
+                        <div className=" w-[600px] text-lg text-grey bg-dark-blue-bg p-7 rounded-lg bg-dark-blue-bg">
                             This project was developed in the MERN stack. A gamified typing tester, this application can be used simply to test your typing speed, or take it to the next level with achievements, levels, and badges. Built with several packages including graphQL, JWT (JSON WEB Token), Tailwind, ChartJS and more.
                         </div>
                         <div className="text-lg">
@@ -29,7 +31,7 @@ const Projects = () => {
                 <div className="flex flex-row text-left mb-8 items-center">
                     <div>
                         <div className="text-4xl text-blue-white my-4">Turtle</div>
-                        <div className="relative text-lg text-grey bg-dark-blue-bg p-7 rounded-lg" >
+                        <div className=" w-[600px] text-lg text-grey bg-dark-blue-bg p-7 rounded-lg" >
                             Inspiried by the popular game Wordle. Turtle is a daily word guesser. With multiple modes, play once a day or as much as you'd like. Built in the MERN stack, utilizing Tailwind, PassportJS, graphQl, and more.
                         </div>
                         <div className="text-lg">
@@ -37,18 +39,22 @@ const Projects = () => {
                             <span className="ml-4 text-grey"> MongoDB</span>
                         </div>
                     </div>
-                    <div className="bg-turtle w-[600px] h-[300px] bg-cover">
-                        {/* <img src={turtle} alt="image of Turtle project" className=''></img> */}
+                    <div className='main'>
+                        <div className="overlay">
+                            <img src={turtle} alt="image of Turtle project" className=''></img>
+                        </div>
                     </div>
                 </div>
 
                 <div className="flex flex-row text-right mb-8 items-center">
-                    <div className="bg-no1fan w-[600px] h-[300px] bg-cover">
-                        {/* <img src={no1fan} alt="image of No. 1 Fan project" className=''></img> */}
+                    <div className='main'>
+                        <div className="overlay">
+                            <img src={no1fan} alt="image of No. 1 Fan project" className=''></img>
+                        </div>
                     </div>
                     <div>
                         <div className="text-4xl text-blue-white my-4">#1Fan</div>
-                        <div className="relative text-lg text-grey bg-dark-blue-bg p-7 rounded-lg">
+                        <div className=" w-[600px] text-lg text-grey bg-dark-blue-bg p-7 rounded-lg">
                             Music application for lovers of music. Create an account and favorite your top artists and albums, viewable from your customizable dashboard. Built with Express, mySQL, Tailwind and more.
                         </div>
                         <div className="text-lg">
@@ -59,7 +65,7 @@ const Projects = () => {
                 </div>
             </div>
 
-        </section>
+        </section >
     )
 }
 
