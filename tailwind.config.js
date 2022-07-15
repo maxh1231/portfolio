@@ -11,6 +11,11 @@ module.exports = {
         'grey': '#8d99ae',
         'light-blue': '#00b4d8',
         'light-grey': '#112240'
+      },
+      backgroundImage: {
+        'typeplusplus': "url('/src/assets/type++.JPG')",
+        'no1fan': "url('/src/assets/no1fan.JPG')",
+        'turtle': "url('/src/assets/turtle.JPG')",
       }
     },
   },
