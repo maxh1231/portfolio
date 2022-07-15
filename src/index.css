@@ -47,10 +47,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px;
 }
 
-.main {
-  background-color: #00b4d8;
 
-}
 
 .overlay {
   opacity: .75;

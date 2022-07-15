@@ -4,9 +4,9 @@ import typeplusplus from '../../assets/type++.JPG'
 
 const Projects = () => {
     return (
-        <section id="projects" className="flex flex-col w-[1200px] m-auto mt-72 pl-12 pr-12">
+        <section id="projects" className="flex flex-col w-[1200px] m-auto mt-72 mx-72">
             <div>
-                <h3 className="text-4xl text-left text-blue-white mb-6"><span className="text-xl text-light-blue">03. </span>Projects</h3>
+                <h3 className="text-4xl text-left text-blue-white mb-24"><span className="text-xl text-light-blue">03. </span>Projects</h3>
             </div>
 
             <div>
