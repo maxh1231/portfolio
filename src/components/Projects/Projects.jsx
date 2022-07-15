@@ -22,8 +22,8 @@ const Projects = () => {
                             This project was developed in the MERN stack. A gamified typing tester, this application can be used simply to test your typing speed, or take it to the next level with achievements, levels, and badges. Built with several packages including graphQL, JWT (JSON WEB Token), Tailwind, ChartJS and more.
                         </div>
                         <div className="text-lg">
-                            <span className="relative right-40 mr-4 text-grey">React.js</span>
-                            <span className="relative right-40 text-grey"> MongoDB</span>
+                            <span className="relative right-40 top-2 mr-4 text-grey">React.js</span>
+                            <span className="relative right-40 top-2 text-grey"> MongoDB</span>
                         </div>
                     </div>
                 </div>
@@ -35,8 +35,8 @@ const Projects = () => {
                             Inspiried by the popular game Wordle. Turtle is a daily word guesser. With multiple modes, play once a day or as much as you'd like. Built in the MERN stack, utilizing Tailwind, PassportJS, graphQl, and more.
                         </div>
                         <div className="text-lg">
-                            <span className="relative left-40 text-grey">React.js</span>
-                            <span className="relative left-40 ml-4 text-grey"> MongoDB</span>
+                            <span className="relative left-40 top-2 text-grey">React.js</span>
+                            <span className="relative left-40 top-2 ml-4 text-grey"> MongoDB</span>
                         </div>
                     </div>
                     <div className='main rounded-md'>
@@ -58,8 +58,8 @@ const Projects = () => {
                             Music application for lovers of music. Create an account and favorite your top artists and albums, viewable from your customizable dashboard. Built with Express, mySQL, Tailwind and more.
                         </div>
                         <div className="text-lg">
-                            <span className="relative right-40 mr-4 text-grey">HandlebarsJS</span>
-                            <span className="relative right-40 text-grey"> mySQL</span>
+                            <span className="relative right-40 mr-4 top-2 text-grey">HandlebarsJS</span>
+                            <span className="relative right-40 top-2 text-grey"> mySQL</span>
                         </div>
                     </div>
                 </div>
