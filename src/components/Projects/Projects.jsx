@@ -4,16 +4,16 @@ import typeplusplus from '../../assets/type++.JPG'
 
 const Projects = () => {
     return (
-        <section id="projects" className="flex flex-col w-[1200px] m-auto mt-72">
+        <section id="projects" className="flex flex-col w-[1200px] m-auto mt-72 pl-12 pr-12">
             <div>
                 <h3 className="text-4xl text-left text-blue-white mb-6"><span className="text-xl text-light-blue">03. </span>Projects</h3>
             </div>
 
             <div>
-                <div className="flex flex-row text-right mb-24 items-center">
-                    <div className=" main ">
-                        <div className="overlay ">
-                            <img src={typeplusplus} alt="image of Type++ project" className=''></img>
+                <div className="flex flex-row text-right mb-16 items-center">
+                    <div className=" main rounded-md ">
+                        <div className="overlay rounded-md ">
+                            <img src={typeplusplus} alt="image of Type++ project" className='rounded-md'></img>
                         </div>
                     </div>
                     <div className="flex flex-col ">
@@ -28,7 +28,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-row text-left mb-24 items-center">
+                <div className="flex flex-row text-left mb-16 items-center">
                     <div>
                         <div className="relative left-40 text-4xl text-blue-white my-4">Turtle</div>
                         <div className="relative left-40 w-[600px] text-lg text-grey bg-dark-blue-bg p-7 rounded-lg z-50" >
@@ -39,17 +39,17 @@ const Projects = () => {
                             <span className="relative left-40 ml-4 text-grey"> MongoDB</span>
                         </div>
                     </div>
-                    <div className='main'>
-                        <div className="overlay">
-                            <img src={turtle} alt="image of Turtle project" className=''></img>
+                    <div className='main rounded-md'>
+                        <div className="overlay rounded-md">
+                            <img src={turtle} alt="image of Turtle project" className='rounded-md'></img>
                         </div>
                     </div>
                 </div>
 
                 <div className="flex flex-row text-right mb-8 items-center">
-                    <div className='main'>
-                        <div className="overlay">
-                            <img src={no1fan} alt="image of No. 1 Fan project" className=''></img>
+                    <div className='main rounded-md'>
+                        <div className="overlay rounded-md">
+                            <img src={no1fan} alt="image of No. 1 Fan project" className=' rounded-md'></img>
                         </div>
                     </div>
                     <div>
