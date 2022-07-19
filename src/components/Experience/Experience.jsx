@@ -89,7 +89,7 @@ const Experience = () => {
     }
 
     return (
-        <section className='flex flex-col mt-72 w-[800px] m-auto'>
+        <section className='flex flex-col mt-72 w-[600px] md:w-[800px] m-auto'>
             <div className='text-4xl text-left mb-6'>
                 <h3 className='text-blue-white'><span className="text-xl text-light-blue">02. </span>Where I've Worked</h3>
             </div>
