@@ -4,7 +4,7 @@ import typeplusplus from '../../assets/type++.JPG'
 
 const Projects = () => {
     return (
-        <section id="projects" className="flex flex-col w-[600px] md:w-[1200px] m-auto mt-72 mx-72">
+        <section id="projects" className="flex flex-col w-[600px] md:w-[1200px] m-auto md:mt-72 md:mx-72">
             <div>
                 <h3 className="text-4xl text-left text-blue-white mb-24"><span className="text-xl text-light-blue">03. </span>Projects</h3>
             </div>
@@ -17,13 +17,13 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="flex flex-col ">
-                        <div className="relative right-40 text-4xl text-blue-white my-4">Type++</div>
-                        <div className="relative right-40 top-0 w-[300px] md:w-[600px] text-base text-grey bg-dark-blue-bg p-7 rounded-lg bg-dark-blue-bg">
+                        <div className="relative md:right-40 text-4xl text-blue-white my-4">Type++</div>
+                        <div className="relative md:right-40 top-0 w-[300px] md:w-[600px] text-base text-grey bg-dark-blue-bg p-7 rounded-lg bg-dark-blue-bg">
                             This project was developed in the MERN stack. A gamified typing tester, this application can be used simply to test your typing speed, or take it to the next level with achievements, levels, and badges. Built with several packages including graphQL, JWT (JSON WEB Token), Tailwind, ChartJS and more.
                         </div>
                         <div className="text-lg">
-                            <span className="relative right-40 top-2 mr-4 text-grey">React.js</span>
-                            <span className="relative right-40 top-2 text-grey"> MongoDB</span>
+                            <span className="relative md:right-40 top-2 mr-4 text-grey">React.js</span>
+                            <span className="relative md:right-40 top-2 text-grey"> MongoDB</span>
                         </div>
                     </div>
                 </div>
