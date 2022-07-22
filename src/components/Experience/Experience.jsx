@@ -8,13 +8,13 @@ const Experience = () => {
             return (
                 <div className='ml-4'>
                     <div>
-                        <h2 className='text-xl md:text-2xl text-blue-white'>Claims Analyst <span className='text-light-blue'>@ TTEC</span></h2>
+                        <h2 className=' md:text-2xl text-blue-white'>Claims Analyst <span className='text-light-blue'>@ TTEC</span></h2>
                     </div>
                     <div className='mb-6'>
-                        <p className='text-lg md:text-xl text-grey'>May 2020 - Present</p>
+                        <p className=' md:text-xl text-grey'>May 2020 - Present</p>
                     </div>
                     <div className=''>
-                        <p className='text-lg md:text-xl text-grey'>Investigate customer reported fraud to determine a responsible and appropriate decision. Navigate multiple systems efficiently to assist in the determination process.</p>
+                        <p className=' md:text-xl text-grey'>Investigate customer reported fraud to determine a responsible and appropriate decision. Navigate multiple systems efficiently to assist in the determination process.</p>
                     </div>
                 </div>
             )
@@ -24,13 +24,13 @@ const Experience = () => {
             return (
                 <div className='ml-4'>
                     <div>
-                        <h2 className='text-xl md:text-2xl text-blue-white' >Tutor & Grader <span className='text-light-blue'>@ 2U</span></h2>
+                        <h2 className=' md:text-2xl text-blue-white' >Tutor & Grader <span className='text-light-blue'>@ 2U</span></h2>
                     </div>
                     <div className='mb-6'>
-                        <p className='text-lg md:text-xl text-grey'>March 2022 - Present</p>
+                        <p className=' md:text-xl text-grey'>March 2022 - Present</p>
                     </div>
                     <div>
-                        <p className='text-lg md:text-xl text-grey'>Tutor students that request additional assistance in categories of University of Utah's Full Stack Coding Bootcamp.</p>
+                        <p className=' md:text-xl text-grey'>Tutor students that request additional assistance in categories of University of Utah's Full Stack Coding Bootcamp.</p>
                     </div>
                 </div>
             )
@@ -40,13 +40,13 @@ const Experience = () => {
             return (
                 <div className='ml-4'>
                     <div>
-                        <h2 className='text-xl md:text-2xl text-blue-white'>Property Insurance Agent <span className='text-light-blue'>@ Teleperformance</span></h2>
+                        <h2 className=' md:text-2xl text-blue-white'>Insurance Agent <span className='text-light-blue'>@ TP</span></h2>
                     </div>
                     <div className='mb-6'>
-                        <p className='text-lg md:text-xl text-grey'>August 2019 - March 2020</p>
+                        <p className=' md:text-xl text-grey'>August 2019 - March 2020</p>
                     </div>
                     <div>
-                        <p className='text-lg md:text-xl text-grey'>Licensed property insurance agent in 46 states. Assist customers to enroll in Auto, Home and Renters insurance. Service policies by making adjustments per customer requests.</p>
+                        <p className='md:text-xl text-grey'>Licensed property insurance agent in 46 states. Assist customers to enroll in Auto, Home and Renters insurance. Service policies by making adjustments per customer requests.</p>
                     </div>
                 </div>
             )
@@ -56,7 +56,7 @@ const Experience = () => {
             return (
                 <div className='ml-4'>
                     <div>
-                        <h2 className='md:text-2xl text-blue-white'>Account Manager <span className='text-light-blue'>@ Discover Financial Services</span></h2>
+                        <h2 className='md:text-2xl text-blue-white'>Account Manager <span className='text-light-blue'>@ DFS</span></h2>
                     </div>
                     <div className='mb-6'>
                         <p className='md:text-xl text-grey'>October 2017 - August 2019</p>
@@ -89,7 +89,7 @@ const Experience = () => {
     }
 
     return (
-        <section className='flex flex-col mt-72 w-[600px] md:w-[800px] m-auto'>
+        <section className='flex flex-col mt-72 w-[200px] sm:w-[400px] md:w-[600px] lg:w-[800px] m-auto'>
             <div className='text-2xl md:text-4xl text-left mb-6'>
                 <h3 className='text-blue-white'><span className="text-lg md:text-xl text-light-blue">02. </span>Where I've Worked</h3>
             </div>
