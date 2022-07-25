@@ -1,8 +1,8 @@
 const Contact = () => {
     return (
-        <section id="contact" className="mt-72 w-[600px] md:w-[800px] mx-auto pb-36">
-            <div className="text-4xl text-left mb-12">
-                <h3 className='text-blue-white'><span className="text-xl text-light-blue">04. </span>Contact</h3>
+        <section id="contact" className="mt-72 w-[200px] sm:w-[400px] md:w-[600px] lg:w-[800px] mx-auto pb-36">
+            <div className="text-2xl md:text-4xl text-left mb-12">
+                <h3 className='text-blue-white'><span className="text-lg md:text-xl text-light-blue">04. </span>Contact</h3>
             </div>
             <div>
                 <p className="text-2xl text-grey">Let's collaborate, my inbox is always open.</p>
