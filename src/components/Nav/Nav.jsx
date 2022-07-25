@@ -1,12 +1,12 @@
 const Nav = () => {
     return (
-        <header className="flex justify-between">
+        <header className="flex flex-col xs:flex-row justify-between">
             <div>
                 <span className="text-2xl lg:text-4xl text-light-blue">Max H.</span>
             </div>
 
             <div>
-                <ul className="flex flex-col md:flex-row items-start " >
+                <ul className="flex flex-col md:flex-row items-start justify-end " >
                     <li>
                         <a href="#about" className="text-lg lg:text-2xl md:pl-6 text-blue-white hover:text-light-blue"><span className="text-xs sm:text-base text-light-blue">01. </span>About</a>
                     </li>

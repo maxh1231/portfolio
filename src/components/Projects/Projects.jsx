@@ -18,7 +18,7 @@ const Projects = () => {
                     </div>
                     <div className="flex flex-col ">
                         <div className="relative md:right-40 text-4xl text-blue-white my-4">Type++</div>
-                        <div className="relative md:right-40 top-0 w-[300px] md:w-[600px] text-base text-grey bg-dark-blue-bg p-7 rounded-lg bg-dark-blue-bg">
+                        <div className="relative md:right-40 top-0 w-[150px] xs:w-[300px] md:w-[600px] text-base text-grey bg-dark-blue-bg p-7 rounded-lg bg-dark-blue-bg">
                             This project was developed in the MERN stack. A gamified typing tester, this application can be used simply to test your typing speed, or take it to the next level with achievements, levels, and badges. Built with several packages including graphQL, JWT (JSON WEB Token), Tailwind, ChartJS and more.
                         </div>
                         <div className="text-lg">
@@ -31,7 +31,7 @@ const Projects = () => {
                 <div className="flex flex-col md:flex-row text-left mb-16 items-center">
                     <div>
                         <div className="relative md:left-40 text-4xl text-blue-white my-4">Turtle</div>
-                        <div className="relative md:left-40 w-[300px] md:w-[600px] text-base text-grey bg-dark-blue-bg p-7 rounded-lg z-50" >
+                        <div className="relative md:left-40 w-[150px] xs:w-[300px] md:w-[600px] text-base text-grey bg-dark-blue-bg p-7 rounded-lg z-50" >
                             Inspiried by the popular game Wordle. Turtle is a daily word guesser. With multiple modes, play once a day or as much as you'd like. Built in the MERN stack, utilizing Tailwind, PassportJS, graphQl, and more.
                         </div>
                         <div className="text-lg">
@@ -54,7 +54,7 @@ const Projects = () => {
                     </div>
                     <div>
                         <div className="relative md:right-40 text-4xl text-blue-white my-4">#1Fan</div>
-                        <div className="relative md:right-40 w-[300px] md:w-[600px] text-base text-grey bg-dark-blue-bg p-7 rounded-lg">
+                        <div className="relative md:right-40 w-[150px] xs:w-[300px] md:w-[600px] text-base text-grey bg-dark-blue-bg p-7 rounded-lg">
                             Music application for lovers of music. Create an account and favorite your top artists and albums, viewable from your customizable dashboard. Built with Express, mySQL, Tailwind and more.
                         </div>
                         <div className="text-lg">
