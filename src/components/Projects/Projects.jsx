@@ -12,7 +12,7 @@ const Projects = () => {
             <div>
                 <div className="flex flex-col md:flex-row text-right mb-16 items-center">
                     <div className=" main rounded-md ">
-                        <div className="overlay rounded-md ">
+                        <div className="hidden md:block overlay rounded-md ">
                             <img src={typeplusplus} alt="image of Type++ project" className='rounded-md'></img>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className='main rounded-md'>
-                        <div className="overlay rounded-md">
+                        <div className="hidden md:block overlay rounded-md">
                             <img src={turtle} alt="image of Turtle project" className='rounded-md'></img>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ const Projects = () => {
 
                 <div className="flex flex-col md:flex-row text-right mb-8 items-center">
                     <div className='main rounded-md'>
-                        <div className="overlay rounded-md">
+                        <div className="hidden md:block overlay rounded-md">
                             <img src={no1fan} alt="image of No. 1 Fan project" className=' rounded-md'></img>
                         </div>
                     </div>
