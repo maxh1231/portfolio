@@ -35,9 +35,11 @@ const Projects = () => {
                 <div className="flex flex-col md:flex-row text-left mb-16 items-center">
                     <div>
                         <div className="relative md:left-40 text-2xl md:text-4xl text-blue-white my-4">Turtle</div>
-                        <div className="relative md:left-40 w-[150px] xs:w-[300px] md:w-[600px] text-base text-grey bg-dark-blue-bg p-7 rounded-lg z-50" >
-                            Inspiried by the popular game Wordle. Turtle is a daily word guesser. With multiple modes, play once a day or as much as you'd like. Built in the MERN stack, utilizing Tailwind, PassportJS, graphQl, and more.
-                        </div>
+                        <a href="https://wurtle.herokuapp.com/" target="_blank" className="md:hidden">
+                            <div className="relative md:left-40 w-[150px] xs:w-[300px] md:w-[600px] text-base text-grey bg-dark-blue-bg p-7 rounded-lg z-50" >
+                                Inspiried by the popular game Wordle. Turtle is a daily word guesser. With multiple modes, play once a day or as much as you'd like. Built in the MERN stack, utilizing Tailwind, PassportJS, graphQl, and more.
+                            </div>
+                        </a>
                         <div className="text-lg">
                             <span className="relative md:left-40 top-2 text-grey">React.js</span>
                             <span className="relative md:left-40 top-2 ml-4 text-grey"> MongoDB</span>
