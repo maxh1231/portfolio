@@ -43,7 +43,9 @@ const Projects = () => {
                     </div>
                     <div className='main rounded-md'>
                         <div className="hidden md:block overlay rounded-md">
-                            <img src={turtle} alt="image of Turtle project" className='rounded-md'></img>
+                            <a href="https://wurtle.herokuapp.com/" target="_blank">
+                                <img src={turtle} alt="image of Turtle project" className='rounded-md'></img>
+                            </a>
                         </div>
                     </div>
                 </div>
