@@ -1,6 +1,7 @@
 import no1fan from '../../assets/no1fan.JPG'
 import turtle from '../../assets/turtle.JPG'
 import typeplusplus from '../../assets/type++.JPG'
+import github from '../../assets/github.svg'
 
 const Projects = () => {
     return (
@@ -28,6 +29,10 @@ const Projects = () => {
                         <div className="text-lg">
                             <span className="relative md:right-40 top-2 mr-4 text-grey">React.js</span>
                             <span className="relative md:right-40 top-2 text-grey"> MongoDB</span>
+                            {/* <a>
+                                <svg role="img" viewBox="0 108 108" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title>
+                                    <path d={github} /></svg>
+                            </a> */}
                         </div>
                     </div>
                 </div>
