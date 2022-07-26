@@ -53,7 +53,9 @@ const Projects = () => {
                 <div className="flex flex-col md:flex-row text-right mb-8 items-center">
                     <div className='main rounded-md'>
                         <div className="hidden md:block overlay rounded-md">
-                            <img src={no1fan} alt="image of No. 1 Fan project" className=' rounded-md'></img>
+                            <a href="https://onlybands.herokuapp.com/" target="_blank">
+                                <img src={no1fan} alt="image of No. 1 Fan project" className=' rounded-md'></img>
+                            </a>
                         </div>
                     </div>
                     <div>
