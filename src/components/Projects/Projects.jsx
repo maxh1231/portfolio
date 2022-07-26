@@ -13,7 +13,9 @@ const Projects = () => {
                 <div className="flex flex-col md:flex-row text-right mb-16 items-center">
                     <div className=" main rounded-md ">
                         <div className="hidden md:block overlay rounded-md ">
-                            <img src={typeplusplus} alt="image of Type++ project" className='rounded-md'></img>
+                            <a href="https://typeplusplus.herokuapp.com/" target="_blank">
+                                <img src={typeplusplus} alt="image of Type++ project" className='rounded-md'></img>
+                            </a>
                         </div>
                     </div>
                     <div className="flex flex-col ">
