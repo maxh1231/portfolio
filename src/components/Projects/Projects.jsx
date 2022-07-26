@@ -64,9 +64,11 @@ const Projects = () => {
                     </div>
                     <div>
                         <div className="relative md:right-40 text-2xl md:text-4xl text-blue-white my-4">#1Fan</div>
-                        <div className="relative md:right-40 w-[150px] xs:w-[300px] md:w-[600px] text-base text-grey bg-dark-blue-bg p-7 rounded-lg">
-                            Music application for lovers of music. Create an account and favorite your top artists and albums, viewable from your customizable dashboard. Built with Express, mySQL, Tailwind and more.
-                        </div>
+                        <a href="https://onlybands.herokuapp.com/" target="_blank" className="md:hidden">
+                            <div className="relative md:right-40 w-[150px] xs:w-[300px] md:w-[600px] text-base text-grey bg-dark-blue-bg p-7 rounded-lg">
+                                Music application for lovers of music. Create an account and favorite your top artists and albums, viewable from your customizable dashboard. Built with Express, mySQL, Tailwind and more.
+                            </div>
+                        </a>
                         <div className="text-lg">
                             <span className="relative md:right-40 mr-4 top-2 text-grey">HandlebarsJS</span>
                             <span className="relative md:right-40 top-2 text-grey"> mySQL</span>
