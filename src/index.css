@@ -57,3 +57,16 @@ body::-webkit-scrollbar-thumb {
   opacity: 1;
   cursor: pointer;
 }
+
+.github {
+  -webkit-filter: invert(.75);
+  /* safari 6.0 - 9.0 */
+  filter: invert(.75);
+}
+
+.github:hover {
+  -webkit-filter: invert(1);
+  /* safari 6.0 - 9.0 */
+  filter: invert(1);
+  cursor: pointer;
+}

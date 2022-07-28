@@ -26,13 +26,12 @@ const Projects = () => {
                                 This project was developed in the MERN stack. A gamified typing tester, this application can be used simply to test your typing speed, or take it to the next level with achievements, levels, and badges. Built with several packages including graphQL, JWT (JSON WEB Token), Tailwind, ChartJS and more.
                             </div>
                         </a>
-                        <div className="text-lg">
-                            <span className="relative md:right-40 top-2 mr-4 text-grey">React.js</span>
-                            <span className="relative md:right-40 top-2 text-grey"> MongoDB</span>
-                            {/* <a>
-                                <svg role="img" viewBox="0 108 108" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title>
-                                    <path d={github} /></svg>
-                            </a> */}
+                        <div className="flex flex-row-reverse items-center relative md:right-40 top-2 text-lg">
+                            <span className="text-grey ml-4">React.js</span>
+                            <span className="text-grey ml-4"> MongoDB</span>
+                            <a>
+                                <img src={github} alt="" className='github w-[32px] h-[32px]' />
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -45,9 +44,12 @@ const Projects = () => {
                                 Inspiried by the popular game Wordle. Turtle is a daily word guesser. With multiple modes, play once a day or as much as you'd like. Built in the MERN stack, utilizing Tailwind, PassportJS, graphQl, and more.
                             </div>
                         </a>
-                        <div className="text-lg">
-                            <span className="relative md:left-40 top-2 text-grey">React.js</span>
-                            <span className="relative md:left-40 top-2 ml-4 text-grey"> MongoDB</span>
+                        <div className="flex tems-center md:pl-40 relative top-2 text-lg">
+                            <span className="text-grey mr-4">React.js</span>
+                            <span className="text-grey mr-4"> MongoDB</span>
+                            <a>
+                                <img src={github} alt="" className='github w-[32px] h-[32px]' />
+                            </a>
                         </div>
                     </div>
                     <div className='main rounded-md'>
@@ -74,9 +76,12 @@ const Projects = () => {
                                 Music application for lovers of music. Create an account and favorite your top artists and albums, viewable from your customizable dashboard. Built with Express, mySQL, Tailwind and more.
                             </div>
                         </a>
-                        <div className="text-lg">
-                            <span className="relative md:right-40 mr-4 top-2 text-grey">HandlebarsJS</span>
-                            <span className="relative md:right-40 top-2 text-grey"> mySQL</span>
+                        <div className="flex flex-row-reverse items-center relative md:right-40 top-2 text-lg">
+                            <span className="text-grey ml-4">HandlebarsJS</span>
+                            <span className="text-grey ml-4"> mySQL</span>
+                            <a>
+                                <img src={github} alt="" className='github w-[32px] h-[32px]' />
+                            </a>
                         </div>
                     </div>
                 </div>
