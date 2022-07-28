@@ -30,7 +30,7 @@ const Projects = () => {
                             <span className="text-grey ml-4">React.js</span>
                             <span className="text-grey ml-4"> MongoDB</span>
                             <a>
-                                <img src={github} alt="" className='github w-[32px] h-[32px]  ' />
+                                <img src={github} alt="" className='github w-[32px] h-[32px]' />
                             </a>
                         </div>
                     </div>
@@ -44,9 +44,12 @@ const Projects = () => {
                                 Inspiried by the popular game Wordle. Turtle is a daily word guesser. With multiple modes, play once a day or as much as you'd like. Built in the MERN stack, utilizing Tailwind, PassportJS, graphQl, and more.
                             </div>
                         </a>
-                        <div className="text-lg">
-                            <span className="relative md:left-40 top-2 text-grey">React.js</span>
-                            <span className="relative md:left-40 top-2 ml-4 text-grey"> MongoDB</span>
+                        <div className="flex tems-center md:pl-40 relative top-2 text-lg">
+                            <span className="text-grey mr-4">React.js</span>
+                            <span className="text-grey mr-4"> MongoDB</span>
+                            <a>
+                                <img src={github} alt="" className='github w-[32px] h-[32px]' />
+                            </a>
                         </div>
                     </div>
                     <div className='main rounded-md'>
