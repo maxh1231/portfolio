@@ -76,9 +76,12 @@ const Projects = () => {
                                 Music application for lovers of music. Create an account and favorite your top artists and albums, viewable from your customizable dashboard. Built with Express, mySQL, Tailwind and more.
                             </div>
                         </a>
-                        <div className="text-lg">
-                            <span className="relative md:right-40 mr-4 top-2 text-grey">HandlebarsJS</span>
-                            <span className="relative md:right-40 top-2 text-grey"> mySQL</span>
+                        <div className="flex flex-row-reverse items-center relative md:right-40 top-2 text-lg">
+                            <span className="text-grey ml-4">HandlebarsJS</span>
+                            <span className="text-grey ml-4"> mySQL</span>
+                            <a>
+                                <img src={github} alt="" className='github w-[32px] h-[32px]' />
+                            </a>
                         </div>
                     </div>
                 </div>
