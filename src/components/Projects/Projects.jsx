@@ -26,11 +26,11 @@ const Projects = () => {
                                 This project was developed in the MERN stack. A gamified typing tester, this application can be used simply to test your typing speed, or take it to the next level with achievements, levels, and badges. Built with several packages including graphQL, JWT (JSON WEB Token), Tailwind, ChartJS and more.
                             </div>
                         </a>
-                        <div className="text-lg">
-                            <span className="relative md:right-40 top-2 mr-4 text-grey">React.js</span>
-                            <span className="relative md:right-40 top-2 text-grey"> MongoDB</span>
+                        <div className="flex flex-row-reverse items-center relative md:right-40 top-2 text-lg">
+                            <span className="text-grey ml-4">React.js</span>
+                            <span className="text-grey ml-4"> MongoDB</span>
                             <a>
-                                <img src={github} alt="" className='w-[32px] h-[32px] relative left-60 bottom-6' />
+                                <img src={github} alt="" className='github w-[32px] h-[32px]  ' />
                             </a>
                         </div>
                     </div>
