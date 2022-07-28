@@ -29,10 +29,9 @@ const Projects = () => {
                         <div className="text-lg">
                             <span className="relative md:right-40 top-2 mr-4 text-grey">React.js</span>
                             <span className="relative md:right-40 top-2 text-grey"> MongoDB</span>
-                            {/* <a>
-                                <svg role="img" viewBox="0 108 108" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title>
-                                    <path d={github} /></svg>
-                            </a> */}
+                            <a>
+                                <img src={github} alt="" className='w-[32px] h-[32px] relative left-60 bottom-6' />
+                            </a>
                         </div>
                     </div>
                 </div>
