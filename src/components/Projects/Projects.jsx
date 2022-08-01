@@ -2,6 +2,7 @@ import no1fan from '../../assets/no1fan.JPG'
 import turtle from '../../assets/turtle.JPG'
 import typeplusplus from '../../assets/type++.JPG'
 import github from '../../assets/github.svg'
+import exlink from '../../assets/external-link.svg'
 
 const Projects = () => {
     return (
@@ -30,7 +31,10 @@ const Projects = () => {
                             <span className="text-grey ml-4">React.js</span>
                             <span className="text-grey ml-4"> MongoDB</span>
                             <a href='https://github.com/maxh1231/type-Plus-Plus' target="_blank">
-                                <img src={github} alt="github logo" className='github w-[32px] h-[32px]' />
+                                <img src={github} alt="github logo" className='ml-4 github w-[32px] h-[32px]' />
+                            </a>
+                            <a href='https://typeplusplus.herokuapp.com/' target="_blank">
+                                <img src={exlink} alt="github logo" className='github w-[32px] h-[32px]' />
                             </a>
                         </div>
                     </div>
@@ -48,7 +52,10 @@ const Projects = () => {
                             <span className="text-grey mr-4">React.js</span>
                             <span className="text-grey mr-4"> MongoDB</span>
                             <a href='https://github.com/maxh1231/turtle' target="_blank">
-                                <img src={github} alt="github logo" className='github w-[32px] h-[32px]' />
+                                <img src={github} alt="github logo" className='mr-4 github w-[32px] h-[32px]' />
+                            </a>
+                            <a href='https://wurtle.herokuapp.com/' target="_blank">
+                                <img src={exlink} alt="github logo" className='github w-[32px] h-[32px]' />
                             </a>
                         </div>
                     </div>
@@ -80,7 +87,10 @@ const Projects = () => {
                             <span className="text-grey ml-4">HandlebarsJS</span>
                             <span className="text-grey ml-4"> mySQL</span>
                             <a href='https://github.com/maxh1231/no1fan' target="_blank">
-                                <img src={github} alt="github logo" className='github w-[32px] h-[32px]' />
+                                <img src={github} alt="github logo" className='ml-4 github w-[32px] h-[32px]' />
+                            </a>
+                            <a href='https://onlybands.herokuapp.com/' target="_blank">
+                                <img src={exlink} alt="github logo" className='github w-[32px] h-[32px]' />
                             </a>
                         </div>
                     </div>
