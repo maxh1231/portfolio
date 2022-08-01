@@ -1,3 +1,5 @@
+const skills = ["JavaScript (ES6+)", "Node.js", "React.js", "Express", "Jest", "MongoDB", "Mongoose", "mySQL", "Sequelize", "CSS5", "Figma", "graphQL", "Apollo Client",]
+
 const About = () => {
     return (
         <section id="about" className="flex flex-col text-left w-[200px] sm:w-[400px] md:w-[600px] lg:w-[800px] m-auto">
