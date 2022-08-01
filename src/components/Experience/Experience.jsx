@@ -91,7 +91,7 @@ const Experience = () => {
     return (
         <section className='flex flex-col mt-72 w-[200px] sm:w-[400px] md:w-[600px] lg:w-[800px] m-auto'>
             <div className='text-2xl md:text-4xl text-left mb-6'>
-                <h3 className='text-blue-white'><span className="text-lg md:text-xl text-light-blue">02. </span>Where I've Worked</h3>
+                <h3 className='text-blue-white'><span className="text-lg md:text-xl text-light-blue">02. </span>Where I've Worked <span className="relative hidden sm:inline top-6 left-4 text-dark-blue border-t border-grey">_____________</span></h3>
             </div>
             <div id="exp" className='flex justify-center text-left'>
                 <div className='flex flex-col justify-center'>
