@@ -70,3 +70,23 @@ body::-webkit-scrollbar-thumb {
   filter: invert(1);
   cursor: pointer;
 }
+
+.social {
+  position: relative;
+  float: right;
+  -moz-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform-origin: 100% 100%;
+  -o-transform-origin: 100% 100%;
+  -webkit-transform-origin: 100% 100%;
+  bottom: 80px;
+  left: 10px
+}
+
+.social-left {
+  position: relative;
+  float: left;
+  bottom: 40px;
+  right: 10px;
+}

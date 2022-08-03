@@ -1,4 +1,4 @@
-const skills = ["JavaScript (ES6+)", "Node.js", "React.js", "Express", "Jest", "MongoDB", "Mongoose", "mySQL", "Sequelize", "CSS5", "Figma", "graphQL", "Apollo Client",]
+const skills = ["JavaScript (ES6+)", "Node.js", "React.js", "Express", "Jest", "MongoDB", "Mongoose", "mySQL", "Sequelize", "CSS5", "Figma", "graphQL", "Apollo Client", "Tailwind", "Bootstrap",]
 
 const About = () => {
     return (
@@ -10,6 +10,14 @@ const About = () => {
                 <p className="md:text-2xl text-grey">
                     Full Stack Web Developer with a passion to code and furthering my knowledge in all programming-related topics. Skilled in HTML, CSS, JavaScript, MongoDB, Express.js, React.js, Node.js and more. Earned a certificate focused in Full Stack Web Development from the University of Utah.
                 </p>
+            </div>
+            <div>
+                <h3 className="text-2xl text-blue-white my-4">Skills and Qualifications:</h3>
+                <div>
+                    {skills.map((item, index) => (
+                        <p className="text-grey" key={index}> &#62; {item} </p>
+                    ))}
+                </div>
             </div>
         </section>
     )
