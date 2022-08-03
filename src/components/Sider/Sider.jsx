@@ -1,6 +1,9 @@
+import github from '../../assets/github.svg'
+
 const Sider = () => {
     return (
         <section className="footer fixed bottom-[210px] h-[200px]">
+            <img src={github} alt="github" className='social-left github w-[32px] h-[32px]' />
             <p className="social text-lg text-grey ">maxhumpherys@gmail.com</p>
         </section>
     )

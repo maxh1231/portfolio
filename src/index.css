@@ -83,3 +83,10 @@ body::-webkit-scrollbar-thumb {
   bottom: 80px;
   left: 10px
 }
+
+.social-left {
+  position: relative;
+  float: left;
+  bottom: 40px;
+  right: 10px;
+}
