@@ -80,13 +80,19 @@ body::-webkit-scrollbar-thumb {
   -moz-transform-origin: 100% 100%;
   -o-transform-origin: 100% 100%;
   -webkit-transform-origin: 100% 100%;
-  bottom: 80px;
-  left: 10px
+  bottom: 160px;
+  left: 10px;
+  opacity: .75;
+}
+
+.social:hover {
+  opacity: 1;
 }
 
 .social-left {
   position: relative;
   float: left;
-  bottom: 40px;
+  bottom: 0px;
+  top: 20px;
   right: 10px;
 }

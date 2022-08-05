@@ -9,7 +9,7 @@ import Sider from "../components/Sider";
 
 const Home = () => {
     return (
-        <section className="App mx-12 my-6">
+        <section className="App mx-12 my-6 ">
             <Nav />
             <Landing />
 
