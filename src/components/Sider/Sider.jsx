@@ -3,7 +3,7 @@ import linkedin from '../../assets/linkedin.svg'
 
 const Sider = () => {
     return (
-        <section className="footer fixed bottom-[210px] h-[200px]">
+        <section className="footer fixed bottom-[210px] h-[200px] z-[-1]">
             <div className='flex flex-col'>
                 <a href="https://github.com/maxh1231" target="_blank" className='w-[32px] h-[32px] mb-4'>
                     <img src={github} alt="github" className='social-left github ' />
