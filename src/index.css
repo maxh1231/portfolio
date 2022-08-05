@@ -80,7 +80,7 @@ body::-webkit-scrollbar-thumb {
   -moz-transform-origin: 100% 100%;
   -o-transform-origin: 100% 100%;
   -webkit-transform-origin: 100% 100%;
-  bottom: 80px;
+  bottom: 160px;
   left: 10px
 }
 
