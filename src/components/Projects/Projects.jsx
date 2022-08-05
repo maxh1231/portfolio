@@ -6,7 +6,7 @@ import exlink from '../../assets/external-link.svg'
 
 const Projects = () => {
     return (
-        <section id="projects" className="flex flex-col w-[150px] xs:w-[300px] sm:w-[600px] md:w-[800px] lg:w-[1000px] xl:w-[1200px] mx-auto  mt-72 xl:mx-42">
+        <section id="projects" className="flex flex-col w-[150px] xs:w-[300px] sm:w-[600px] md:w-[800px] lg:w-[1000px] xl:w-[1200px] mx-auto  mt-72 xl:mx-42 z-[2]">
             <div>
                 <h3 className="text-2xl md:text-4xl text-left text-blue-white mb-24"><span className="text-lg md:text-xl text-light-blue">03. </span>Projects <span className="relative hidden sm:inline top-6 left-4 text-dark-blue border-t border-grey">___________________</span></h3>
             </div>
