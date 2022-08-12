@@ -6,6 +6,9 @@
 
   ## Live Application
   [GitHub Pages](https://maxh1231.github.io/portfolio-v2/)
+  
+  ## Screenshot
+  ![image](https://user-images.githubusercontent.com/41771785/184423695-5722efdf-1368-43bc-8daf-b3dc1ad7fe5a.png)
 
   ## Questions 
   You can reach me at maxhumpherys@gmail.com or on [GitHub](https://github.com/maxh1231)
