@@ -30,11 +30,11 @@ const Contact = () => {
             </div>
             <div>
                 <form className='flex flex-col'>
-                    <div>
-                        <input type="text" placeholder='Name'></input>
+                    <div className='mt-8'>
+                        <input type="text" placeholder='Name' className='w-1/2 pl-2 h-[35px] text-grey bg-light-grey outline-none border-2 border-grey rounded'></input>
                     </div>
-                    <div>
-                        <textarea placeholder='Message'></textarea>
+                    <div className='mt-4'>
+                        <textarea placeholder='Message' className='w-1/2 h-[80px] pl-2 text-grey bg-light-grey outline-none border-2 border-grey rounded'></textarea>
                     </div>
                     <a href="mailto: maxhumpherys@gmail.com">
                         <button className="my-12 text-2xl px-2 py-2 text-light-blue border-2 border-light-blue rounded-md hover:text-light-blue hover:bg-light-grey">
