@@ -18,7 +18,7 @@ const Home = () => {
             <Projects />
             <Contact />
             <Footer />
-            <Sider />
+            {/* <Sider /> */}
         </section>
     )
 }
