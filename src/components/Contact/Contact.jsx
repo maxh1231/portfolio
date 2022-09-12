@@ -29,18 +29,37 @@ const Contact = () => {
                 <p className="text-2xl text-grey">Let's collaborate, my inbox is always open.</p>
             </div>
             <div>
-                <form className='flex flex-col'>
+                <form ref={form} onSubmit={handleSubmit(sendEmail)} className='flex flex-col'>
                     <div className='mt-8'>
-                        <input type="text" placeholder='Name' className='w-1/2 pl-2 h-[35px] text-grey bg-light-grey outline-none border-2 border-grey rounded'></input>
+                        <input
+                            {...register('from_name', { required: true })}
+                            type="text"
+                            placeholder='Name'
+                            className='w-1/2 pl-2 h-[35px] text-grey bg-light-grey outline-none border-2 border-grey rounded'>
+                        </input>
+                    </div>
+                    <div className='mt-2'>
+                        <input
+                            {...register('from_email', { required: true, pattern: /\S+@\S+\.\S+/ })}
+                            type='email'
+                            placeholder='Email'
+                            className='w-1/2 pl-2 h-[35px] text-grey bg-light-grey outline-none border-2 border-grey rounded'>
+                        </input>
                     </div>
                     <div className='mt-4'>
-                        <textarea placeholder='Message' className='w-1/2 h-[80px] pl-2 text-grey bg-light-grey outline-none border-2 border-grey rounded'></textarea>
+                        <textarea
+                            {...register('message', { required: true })}
+                            placeholder='Message'
+                            className='w-1/2 h-[80px] pl-2 text-grey bg-light-grey outline-none border-2 border-grey rounded'></textarea>
                     </div>
-                    <a href="mailto: maxhumpherys@gmail.com">
+                    <div>
+                        <input type="submit" value="Submit" className="my-12 text-2xl px-2 py-2 text-light-blue border-2 border-light-blue rounded-md hover:text-light-blue hover:bg-light-grey hover:cursor-pointer"></input>
+                    </div>
+                    {/* <a href="mailto: maxhumpherys@gmail.com">
                         <button className="my-12 text-2xl px-2 py-2 text-light-blue border-2 border-light-blue rounded-md hover:text-light-blue hover:bg-light-grey">
                             Email
                         </button>
-                    </a>
+                    </a> */}
                 </form>
             </div>
         </section>
