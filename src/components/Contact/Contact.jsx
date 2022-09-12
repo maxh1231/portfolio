@@ -45,6 +45,7 @@ const Contact = () => {
                             placeholder='Name'
                             className='w-1/2 pl-2 h-[35px] text-grey bg-light-grey outline-none border-2 border-grey rounded'>
                         </input>
+                        {errors.from_name && <span className="block text-grey">This field is required.</span>}
                     </div>
                     <div className='mt-2'>
                         <input
@@ -53,21 +54,18 @@ const Contact = () => {
                             placeholder='Email'
                             className='w-1/2 pl-2 h-[35px] text-grey bg-light-grey outline-none border-2 border-grey rounded'>
                         </input>
+                        {errors.from_email && <span className="block text-grey">Must be a valid email address.</span>}
                     </div>
                     <div className='mt-4'>
                         <textarea
                             {...register('message', { required: true })}
                             placeholder='Message'
                             className='w-1/2 h-[80px] pl-2 text-grey bg-light-grey outline-none border-2 border-grey rounded'></textarea>
+                        {errors.message && <span className="block text-grey">Please provide a message.</span>}
                     </div>
                     <div>
                         <input type="submit" value="Submit" className="my-12 text-2xl px-2 py-2 text-light-blue border-2 border-light-blue rounded-md hover:text-light-blue hover:bg-light-grey hover:cursor-pointer"></input>
                     </div>
-                    {/* <a href="mailto: maxhumpherys@gmail.com">
-                        <button className="my-12 text-2xl px-2 py-2 text-light-blue border-2 border-light-blue rounded-md hover:text-light-blue hover:bg-light-grey">
-                            Email
-                        </button>
-                    </a> */}
                 </form>
             </div>
         </section>
