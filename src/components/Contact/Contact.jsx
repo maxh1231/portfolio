@@ -20,6 +20,14 @@ const Contact = () => {
         setView(true);
     };
 
+    if (view) {
+        return (
+            <div className="flex flex-col justify-center items-center h-screen text-4xl text-grey">
+                <h3>Thank you! I will be in contact.</h3>
+            </div>
+        )
+    }
+
     return (
         <section id="contact" className="mt-72 w-[200px] sm:w-[400px] md:w-[600px] lg:w-[800px] mx-auto pb-36 z-[100]">
             <div className="text-2xl md:text-4xl text-left mb-12">
