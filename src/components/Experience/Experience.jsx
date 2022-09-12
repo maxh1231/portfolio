@@ -96,11 +96,11 @@ const Experience = () => {
             </div>
             <div id="exp" className='flex justify-center text-left'>
                 <div className='flex flex-col justify-center'>
-                    <div id='bofa' onClick={jobHandler} className={`border-l-2 ${currentJob === 0 ? "border-light-blue" : "border-grey"} hover:bg-light-grey hover:cursor-pointer py-2 pr-2 pl-4`}>
-                        <span id='bofa' onClick={jobHandler} className={`text-lg md:text-xl ${currentJob === 0 ? "text-light-blue" : "text-grey"}  hover:cursor-pointer`}>Teletech Inc.</span>
-                    </div>
                     <div id='2u' onClick={jobHandler} className={`border-l-2 ${currentJob === 1 ? "border-light-blue" : "border-grey "} hover:bg-light-grey hover:cursor-pointer py-2 pr-2 pl-4`}>
                         <span id='2u' onClick={jobHandler} className={`text-lg md:md:text-xl ${currentJob === 1 ? "text-light-blue" : "text-grey"} hover:cursor-pointer`}>2U Inc.</span>
+                    </div>
+                    <div id='bofa' onClick={jobHandler} className={`border-l-2 ${currentJob === 0 ? "border-light-blue" : "border-grey"} hover:bg-light-grey hover:cursor-pointer py-2 pr-2 pl-4`}>
+                        <span id='bofa' onClick={jobHandler} className={`text-lg md:text-xl ${currentJob === 0 ? "text-light-blue" : "text-grey"}  hover:cursor-pointer`}>Teletech Inc.</span>
                     </div>
                     <div id='tp' onClick={jobHandler} className={`border-l-2 ${currentJob === 2 ? "border-light-blue" : "border-grey"} hover:bg-light-grey hover:cursor-pointer py-2 pr-2 pl-4`}>
                         <span id='tp' onClick={jobHandler} className={`text-lg md:md:text-xl ${currentJob === 2 ? "text-light-blue" : "text-grey"} hover:cursor-pointer`}>Teleperformance</span>
