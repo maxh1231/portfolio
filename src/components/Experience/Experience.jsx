@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 const Experience = () => {
-    const [currentJob, setCurrentJob] = useState(0)
+    const [currentJob, setCurrentJob] = useState(1)
 
     const renderJob = () => {
         if (currentJob === 0) {
