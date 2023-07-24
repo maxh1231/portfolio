@@ -1,3 +1,4 @@
+import audiophile from '../../assets/audiophile2.png'
 import no1fan from '../../assets/no1fan.JPG'
 import turtle from '../../assets/turtle.JPG'
 import typeplusplus from '../../assets/type++.JPG'
@@ -12,6 +13,35 @@ const Projects = () => {
             </div>
 
             <div>
+
+                <div className="flex flex-col lg:flex-row text-left mb-16 items-center">
+                    <div>
+                        <div className="relative lg:left-40 text-2xl md:text-4xl text-blue-white my-4">Audiophile</div>
+                        <a href="https://audiophile-ecommerce-maxh1231.vercel.app/" target="_blank" rel="noreferrer" className="">
+                            <div className="relative lg:left-40 w-[150px] xs:w-[300px] md:w-[600px] text-base text-grey bg-dark-blue-bg p-7 rounded-lg z-50" >
+                                Audiophile offers a seamless shopping experience, allowing you to effortlessly explore, compare, and purchase your favorite audio gear. All items are placeholder products meant to display my front-end skills. Built with Next.js, React, TypeScript, and more.
+                            </div>
+                        </a>
+                        <div className="flex tems-center lg:pl-40 relative top-2 text-lg">
+                            <span className="text-grey mr-4">Next.js</span>
+                            <span className="text-grey mr-4"> TypeScript</span>
+                            <a href='https://github.com/maxh1231/audiophile-ecommerce' target="_blank" rel="noreferrer">
+                                <img src={github} alt="github logo" className='mr-4 github w-[32px] h-[32px]' />
+                            </a>
+                            <a href='https://audiophile-ecommerce-maxh1231.vercel.app/' target="_blank" rel="noreferrer">
+                                <img src={exlink} alt="github logo" className='github w-[32px] h-[32px]' />
+                            </a>
+                        </div>
+                    </div>
+                    <div className='main rounded-md'>
+                        <div className="hidden lg:block overlay rounded-md">
+                            <a href="https://audiophile-ecommerce-maxh1231.vercel.app/" target="_blank" rel="noreferrer">
+                                <img src={audiophile} alt="Turtle project" className='rounded-md'></img>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="flex flex-col lg:flex-row text-right mb-16 items-center">
                     <div className=" main rounded-md ">
                         <div className="hidden lg:block overlay rounded-md ">
@@ -45,7 +75,7 @@ const Projects = () => {
                         <div className="relative lg:left-40 text-2xl md:text-4xl text-blue-white my-4">Turtle</div>
                         <a href="https://turtle.herokuapp.com/" target="_blank" rel="noreferrer" className="">
                             <div className="relative lg:left-40 w-[150px] xs:w-[300px] md:w-[600px] text-base text-grey bg-dark-blue-bg p-7 rounded-lg z-50" >
-                                Inspiried by the popular game Wordle. Turtle is a daily word guesser. With multiple modes, play once a day or as much as you'd like. Built in the MERN stack, utilizing Tailwind, PassportJS, graphQl, and more.
+                                Inspired by the popular game Wordle. Turtle is a daily word guesser. With multiple modes, play once a day or as much as you'd like. Built in the MERN stack, utilizing Tailwind, PassportJS, graphQl, and more.
                             </div>
                         </a>
                         <div className="flex tems-center lg:pl-40 relative top-2 text-lg">

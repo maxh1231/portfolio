@@ -1,6 +1,6 @@
 const skills = ["JavaScript (ES6+)", "TypeScript", "Node.js", "React.js", "Express.js", "Git", "Jest", "MongoDB", "Mongoose", "Vite/Vercel"]
 
-const moreSkills = ["mySQL", "Sequelize", "PostgreSQL", "graphQL", "Apollo Client", "CSS5", "Figma", "Tailwind", "Bootstrap", "And more!"]
+const moreSkills = ["mySQL", "Sequelize", "PostgreSQL", "graphQL", "Apollo Client", "CSS3", "Figma", "Tailwind", "Bootstrap", "And more!"]
 
 const About = () => {
     return (
