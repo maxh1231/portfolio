@@ -47,7 +47,7 @@ const Contact = () => {
                             {...register('from_name', { required: true })}
                             type="text"
                             placeholder='Name'
-                            className='w-1/2 pl-2 h-[35px] text-grey bg-light-grey outline-none border-2 border-grey rounded'>
+                            className='sm:w-1/2 pl-2 h-[35px] text-grey bg-light-grey outline-none border-2 border-grey rounded'>
                         </input>
                         {errors.from_name && <span className="block text-grey">This field is required.</span>}
                     </div>
@@ -56,7 +56,7 @@ const Contact = () => {
                             {...register('from_email', { required: true, pattern: /\S+@\S+\.\S+/ })}
                             type='email'
                             placeholder='Email'
-                            className='w-1/2 pl-2 h-[35px] text-grey bg-light-grey outline-none border-2 border-grey rounded'>
+                            className='sm:w-1/2 pl-2 h-[35px] text-grey bg-light-grey outline-none border-2 border-grey rounded'>
                         </input>
                         {errors.from_email && <span className="block text-grey">Must be a valid email address.</span>}
                     </div>
@@ -64,7 +64,7 @@ const Contact = () => {
                         <textarea
                             {...register('message', { required: true })}
                             placeholder='Message'
-                            className='w-1/2 h-[80px] pl-2 text-grey bg-light-grey outline-none border-2 border-grey rounded'></textarea>
+                            className='sm:w-1/2 h-[80px] pl-2 text-grey bg-light-grey outline-none border-2 border-grey rounded'></textarea>
                         {errors.message && <span className="block text-grey">Please provide a message.</span>}
                     </div>
                     <div>
