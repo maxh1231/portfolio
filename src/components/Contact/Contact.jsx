@@ -30,10 +30,14 @@ const Contact = () => {
 
     return (
         <section id="contact" className="mt-72 w-[200px] sm:w-[400px] md:w-[600px] lg:w-[800px] mx-auto pb-36 z-[100]">
-            <div className="text-2xl md:text-4xl text-left mb-12">
+            <div className="hidden sm:inline text-2xl md:text-4xl text-left mb-12">
                 <h3 className='text-blue-white'><span className="text-lg md:text-xl text-light-blue">04. </span>Contact <span className="relative hidden sm:inline top-6 left-4 text-dark-blue border-t border-grey">___________________</span></h3>
             </div>
-            <div>
+
+            <div className="inline sm:hidden text-2xl md:text-4xl text-center mb-12">
+                <h3 className='text-blue-white'><span className="text-lg md:text-xl text-light-blue">03. </span>Contact <span className="relative hidden sm:inline top-6 left-4 text-dark-blue border-t border-grey">___________________</span></h3>
+            </div>
+            <div className='mt-24'>
                 <p className="text-2xl text-grey">Let's collaborate, my inbox is always open.</p>
             </div>
             <div>

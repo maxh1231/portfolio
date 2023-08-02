@@ -1,9 +1,9 @@
-import Avatar from 'avataaars'
+import avatar from '../../assets/avataaars.svg'
 
 const Landing = () => {
     return (
         <section className="text-center flex flex-col md:flex-row md:text-left items-center h-screen justify-center w-[200px] sm:w-[400px] md:w-[600px] lg:w-[800px] m-auto">
-            <div>
+            <div className='md:w-[336px] lg:w-[536px]'>
                 <div>
                     <p className="text-2xl md:text-4xl text-blue-white ">Hello,</p>
                 </div>
@@ -16,8 +16,8 @@ const Landing = () => {
                     </p>
                 </div>
             </div>
-            <div>
-                <Avatar
+            <div >
+                {/* <Avatar
                     avatarStyle='Transparent'
                     topType='ShortHairShortWaved'
                     accessoriesType='Prescription02'
@@ -29,7 +29,8 @@ const Landing = () => {
                     eyebrowType='RaisedExcited'
                     mouthType='Smile'
                     skinColor='Light'
-                />
+                /> */}
+                <img src={avatar} alt="" />
             </div>
         </section>
     )
