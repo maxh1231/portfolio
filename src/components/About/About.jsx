@@ -10,7 +10,7 @@ const About = () => {
             </div>
             <div>
                 <p className="md:text-2xl text-grey">
-                    Full Stack Web Developer with a passion to code and furthering my knowledge in all programming-related topics. Earned a certificate in Full Stack Web Development from The University of Utah. Pursuing a Bachelors Degree in Computer Science and expect to graduate in 2025. Lover of movies, music, and video games. My cat Rufus is my coding buddy.
+                    Full Stack Web Developer with a passion to code and furthering my knowledge in all programming-related topics. Earned a certificate in Full Stack Web Development from The University of Utah. Lover of movies, music, and video games. My cat Rufus is my coding buddy.
                 </p>
             </div>
             <div>
