@@ -2,26 +2,98 @@ import { useState } from 'react'
 
 const Experience = () => {
     const [currentJob, setCurrentJob] = useState(1)
+    const [currentPos, setCurrentPos] = useState('ta');
+
+    const renderPos = () => {
+        if (currentPos === 'ta') {
+            return (
+                <div>
+                    <p className='md:text-xl text-grey mt-4'>
+                        &#62; Assisted instructors in providing tailored support to students enrolled in a 24-week full stack developer bootcamp, contributing
+                        to a high retention rate and student satisfaction.
+                    </p>
+                    <p className='md:text-xl text-grey mt-4' >
+                        &#62; Facilitated the grading process for weekly assignments, ensuring fair and constructive feedback delivery to students, resulting
+                        in consistent improvement in their coding skills and project outcomes.
+                    </p>
+                    <p className='md:text-xl text-grey mt-4' >
+                        &#62; Collaborated with teaching staff to implement innovative teaching methodologies and resources, fostering an engaging and
+                        dynamic learning environment for students throughout the bootcamp duration.
+                    </p>
+                </div>
+            )
+        }
+        if (currentPos === 't') {
+            return (
+                <div>
+                    <p className='md:text-xl text-grey mt-4'>
+                        &#62; Conducted up to 12 one-hour tutoring sessions weekly for full stack developer students, focusing on specific course materials
+                        and objectives.
+                    </p>
+                    <p className='md:text-xl text-grey mt-4' >
+                        &#62; Received consistent positive feedback from students, indicating strong satisfaction with the quality and relevance of tutoring
+                        sessions to their learning objectives and the weekly goals of the bootcamp.
+                    </p>
+                    <p className='md:text-xl text-grey mt-4' >
+                        &#62; Demonstrated proficiency in utilizing and applying relevant technologies pertinent to each week's bootcamp curriculum,
+                        ensuring students receive effective guidance and support tailored to their needs.
+                    </p>
+                </div>
+            )
+        }
+        if (currentPos === 'g') {
+            return (
+                <div>
+                    <p className='md:text-xl text-grey mt-4'>
+                        &#62; Responsible for assessing on average 50 weekly assignments from a diverse international cohort of students enrolled in a
+                        24-week full stack development bootcamp, with 25% of assignments constituting full stack applications.
+                    </p>
+                    <p className='md:text-xl text-grey mt-4' >
+                        &#62; Demonstrated proficiency in cloning and debugging student applications to ensure functionality, providing comprehensive
+                        feedback based on the debugging process.
+                    </p>
+                    <p className='md:text-xl text-grey mt-4' >
+                        &#62; Consistently achieved top ratings of 5 in all six evaluated metrics, including greeting, clarity of feedback, tone of feedback,
+                        personalization, supportive conclusion, and technical proficiency and knowledge, through monthly reviews conducted by a senior
+                        grader over a span of two years.
+
+                    </p>
+                </div>
+            )
+        }
+    }
+
 
     const renderJob = () => {
         if (currentJob === 0) {
             return (
                 <div className='ml-4'>
                     <div>
-                        <h2 className=' md:text-2xl text-blue-white'>Claims Analyst <span className='text-light-blue'>@ TTEC</span></h2>
+                        <h2 className=' md:text-2xl text-blue-white'>Quality Assurance Claims Analyst <span className='text-light-blue'>@ TTEC</span></h2>
                     </div>
                     <div className='mb-6'>
                         <p className=' md:text-xl text-grey'>May 2020 - Present</p>
                     </div>
                     <div className=''>
                         <p className=' md:text-xl text-grey mt-4'>
-                            &#62; Investigate customer reported fraud to determine a responsible and appropriate decision to pay or deny claims. Navigate multiple systems in timely manners to assist in the investigation process.
+                            &#62; Promoted three times within four years for consistently surpassing expectations and achieving outstanding results, while
+                            maintaining a top 10% ranking among claims analysts, leading to progression into a quality assurance role.
+
                         </p>
                         <p className=' md:text-xl text-grey mt-4'>
-                            &#62; Provide data analysis to determine cardholder patterns that may conflict with their claim.
+                            &#62; Conduct thorough evaluations of 20-30 fraud claims weekly, submitted from claims analysts, to ensure compliance with industry
+                            regulations and Bank of America's established protocols, thereby enhancing the cardholder experience.
                         </p>
                         <p className=' md:text-xl text-grey mt-4'>
-                            &#62; Maintain benchmark goals of handle time and high percentages of accuracy.
+                            &#62; Execute further investigations for claims requiring additional scrutiny, maintaining adherence to the bank's policies and
+                            procedures in resolving credit card customer billing
+                        </p>
+                        <p className=' md:text-xl text-grey mt-4'>
+                            &#62; Designated as escalation point for clients and claims analysts, providing unparalleled support and guidance to ensure swift
+                            resolution of complex issues.
+                        </p>
+                        <p className=' md:text-xl text-grey mt-4'>
+                            &#62; Develop and implement coaching action plans for representatives to optimize performance and achieve operational excellence.
                         </p>
                     </div>
                 </div>
@@ -32,21 +104,18 @@ const Experience = () => {
             return (
                 <div className='ml-4'>
                     <div>
-                        <h2 className=' md:text-2xl text-blue-white' >Teaching Assistant, Tutor & Grader <span className='text-light-blue'>@ 2U</span></h2>
+                        <h2 className=' md:text-2xl text-blue-white' >Full Stack Developer Teaching Assistant & Tutor <span className='text-light-blue'>@ 2U</span></h2>
                     </div>
                     <div className='mb-6'>
                         <p className=' md:text-xl text-grey'>March 2022 - Present</p>
                     </div>
+                    <div className='flex'>
+                        <p onClick={() => setCurrentPos('ta')} className={`underline underline-offset-4 md:text-xl mx-2 cursor-pointer ${currentPos === 'ta' ? "text-light-blue" : "text-grey "}`}>Teacher's Assistant</p>
+                        <p onClick={() => setCurrentPos('t')} className={`underline underline-offset-4 md:text-xl mx-2 cursor-pointer ${currentPos === 't' ? "text-light-blue" : "text-grey "}`}>Tutor & Mentor</p>
+                        <p onClick={() => setCurrentPos('g')} className={`underline underline-offset-4 md:text-xl mx-2 cursor-pointer ${currentPos === 'g' ? "text-light-blue" : "text-grey "}`}>Grader</p>
+                    </div>
                     <div>
-                        <p className='md:text-xl text-grey mt-4'>
-                            &#62; Provide assistance to instructors in 2U's Full Stack Web Development Bootcamp by answering any questions, managing student groups working together for the same goal. Give insight for any necessary alternative paths for student success.
-                        </p>
-                        <p className='md:text-xl text-grey mt-4' >
-                            &#62; Tutor students that request additional mentoring hours outside of the allocated class time. Point students toward the right direction for their own development, without giving direct answers. Share any knowledge that I deem necessary for overall understanding.
-                        </p>
-                        <p className='md:text-xl text-grey mt-4' >
-                            &#62; Manage student assignments and grades by offering analysis and high level technical feedback.
-                        </p>
+                        {renderPos()};
                     </div>
                 </div>
             )
@@ -104,7 +173,6 @@ const Experience = () => {
     const jobHandler = (event) => {
         if (event.target.id === 'bofa') {
             setCurrentJob(0)
-            console.log(event.target.children)
         }
 
         if (event.target.id === '2u') {
