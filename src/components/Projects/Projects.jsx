@@ -50,7 +50,7 @@ const Projects = () => {
                 <div className="flex flex-col lg:flex-row text-left mb-16 items-center">
                     <div>
                         <div className="relative lg:left-40 text-2xl md:text-4xl text-blue-white my-4">Audiophile</div>
-                        <a href="https://audiophile-ecommerce-maxh1231.vercel.app/" target="_blank" rel="noreferrer" className="">
+                        <a href="https://audiophileproducts.vercel.app/" target="_blank" rel="noreferrer" className="">
                             <div className="relative lg:left-40 w-[150px] xs:w-[300px] md:w-[600px] text-base text-grey bg-dark-blue-bg p-7 rounded-lg z-50" >
                                 Audiophile offers a seamless shopping experience, allowing you to effortlessly explore, compare, and purchase your favorite audio gear. All items are placeholder products meant to display my front-end skills. Built with Next.js, React, TypeScript, and more.
                             </div>
@@ -61,14 +61,14 @@ const Projects = () => {
                             <a href='https://github.com/maxh1231/audiophile-ecommerce' target="_blank" rel="noreferrer">
                                 <img src={github} alt="github logo" className='mr-4 github w-[32px] h-[32px]' />
                             </a>
-                            <a href='https://audiophile-ecommerce-maxh1231.vercel.app/' target="_blank" rel="noreferrer">
+                            <a href='https://audiophileproducts.vercel.app/' target="_blank" rel="noreferrer">
                                 <img src={exlink} alt="github logo" className='github w-[32px] h-[32px]' />
                             </a>
                         </div>
                     </div>
                     <div className='main rounded-md'>
                         <div className="hidden lg:block overlay rounded-md">
-                            <a href="https://audiophile-ecommerce-maxh1231.vercel.app/" target="_blank" rel="noreferrer">
+                            <a href="https://audiophileproducts.vercel.app/" target="_blank" rel="noreferrer">
                                 <img src={audiophile} alt="Turtle project" className='rounded-md'></img>
                             </a>
                         </div>
