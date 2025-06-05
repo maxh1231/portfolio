@@ -1,6 +1,6 @@
 export const jobs = [
     {
-        title: 'Service Desk Technican',
+        title: 'Service Desk Technican 2',
         company: 'Unisys',
         startDate: 'Jun 2024',
         endDate: 'Present',
