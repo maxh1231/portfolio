@@ -49,4 +49,14 @@ export const projects = [
         stackb: 'Mozilla API',
         align: 'left-40',
     },
+    {
+        title: 'Turtle',
+        desc: 'A word-guessing game inspired by Wordle, featuring multiple play modes including daily and unlimited games. Users can track their progress with a personalized dashboard that displays detailed game statistics. Built with React, MongoDB, and Webpack with a focus on replayability and user engagement.',
+        image: turtle,
+        deployment: 'https://turtle.herokuapp.com/',
+        github: 'https://github.com/maxh1231/turtle',
+        stacka: 'React.js',
+        stackb: 'MongoDB',
+        align: 'right-40',
+    },
 ];
