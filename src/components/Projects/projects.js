@@ -5,10 +5,12 @@ import typeplusplus from '../../assets/type++.JPG';
 import streamability from '../../assets/streamability.png';
 import github from '../../assets/github.svg';
 import exlink from '../../assets/external-link.svg';
+import chess from '../../assets/hide-chesscom-opponent.png';
+
 export const projects = [
     {
         title: 'Streamability',
-        desc: 'Browse your favorite movies and TV shows to discover what platforms they are streamed on. Create an account to add shows to your queue, favorites, or watched list. This is an open-source application built with React, TypeScript, PostgreSQL, and more.',
+        desc: 'Full-stack application that helps users discover where to stream movies and TV shows. Features include personalized watchlists, trending content, and tailored recommendations based on user activity. Built with React, TypeScript, PostgreSQL, and Docker, using RESTful APIs, modern authentication, and a responsive UI.',
         image: streamability,
         deployment: 'https://streamability.vercel.app/',
         github: 'https://github.com/Thenlie/Streamability',
@@ -18,7 +20,7 @@ export const projects = [
     },
     {
         title: 'Audiophile',
-        desc: 'Audiophile offers a seamless shopping experience, allowing you to effortlessly explore, compare, and purchase your favorite audio gear. All items are placeholder products meant to display my front-end skills. Built with Next.js, React, TypeScript, and more.',
+        desc: 'An e-commerce interface for audio products, designed to showcase front-end architecture, UI design, and component reusability. Features product browsing, cart management, and responsive layouts. Built with Next.js, React, and TypeScript, with a focus on clean design, accessibility, and frontend performance.',
         image: audiophile,
         deployment: 'https://audiophileproducts.vercel.app/',
         github: 'https://github.com/maxh1231/audiophile-ecommerce',
@@ -28,12 +30,23 @@ export const projects = [
     },
     {
         title: 'Type++',
-        desc: 'This project was developed in the MERN stack. A gamified typing tester, this application can be used simply to test your typing speed, or take it to the next level with achievements, levels, and badges. Built with several packages including graphQL, JWT (JSON WEB Token), Tailwind, ChartJS and more.',
+        desc: 'A gamified typing tester featuring achievements, levels, badges, and competitive leaderboards (friend, weekly, and global). Users can add friends, compare performance, and track their typing stats over time. Built with React, GraphQL, JWT authentication, MongoDB, and Tailwind CSS, emphasizing a smooth user experience and structured data handling.',
         image: typeplusplus,
         deployment: 'https://typeplus.herokuapp.com/',
-        github: 'https://github.com/maxh1231/type-Plus-Plus',
+        github: 'https://github.com/maxh1232/type-Plus-Plus',
         stacka: 'MongoDB',
         stackb: 'React.js',
         align: 'right-40',
+    },
+    {
+        title: 'Hide Chess.com Opponent',
+        desc: 'A lightweight Firefox extension built with JavaScript that enhances focus during online chess games by hiding your opponent’s information on Chess.com. Designed with strict adherence to the Acorns Design System, the extension emphasizes performance through minimal CSS injection and maintains a clean, well-documented codebase.',
+        image: chess,
+        deployment:
+            'https://addons.mozilla.org/en-US/firefox/addon/hide-chesscom-opponent/',
+        github: 'https://github.com/maxh1231/hide-chesscom-opponent',
+        stacka: 'JavaScript',
+        stackb: 'Mozilla API',
+        align: 'left-40',
     },
 ];
