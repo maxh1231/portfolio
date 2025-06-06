@@ -1,10 +1,7 @@
 import audiophile from '../../assets/audiophile2.png';
-import no1fan from '../../assets/no1fan.JPG';
 import turtle from '../../assets/turtle.JPG';
 import typeplusplus from '../../assets/type++.JPG';
 import streamability from '../../assets/streamability.png';
-import github from '../../assets/github.svg';
-import exlink from '../../assets/external-link.svg';
 import chess from '../../assets/hide-chesscom-opponent.png';
 
 export const projects = [
@@ -16,7 +13,7 @@ export const projects = [
         github: 'https://github.com/Thenlie/Streamability',
         stacka: 'PostgreSQL',
         stackb: 'React.js',
-        align: 'right-40',
+        align: 'right',
     },
     {
         title: 'Audiophile',
@@ -24,9 +21,9 @@ export const projects = [
         image: audiophile,
         deployment: 'https://audiophileproducts.vercel.app/',
         github: 'https://github.com/maxh1231/audiophile-ecommerce',
-        stacka: 'Nest.js',
+        stacka: 'Next.js',
         stackb: 'TypeScript',
-        align: 'left-40',
+        align: 'left',
     },
     {
         title: 'Type++',
@@ -36,7 +33,7 @@ export const projects = [
         github: 'https://github.com/maxh1232/type-Plus-Plus',
         stacka: 'MongoDB',
         stackb: 'React.js',
-        align: 'right-40',
+        align: 'right',
     },
     {
         title: 'Hide Chess.com Opponent',
@@ -47,7 +44,7 @@ export const projects = [
         github: 'https://github.com/maxh1231/hide-chesscom-opponent',
         stacka: 'JavaScript',
         stackb: 'Mozilla API',
-        align: 'left-40',
+        align: 'left',
     },
     {
         title: 'Turtle',
@@ -57,6 +54,6 @@ export const projects = [
         github: 'https://github.com/maxh1231/turtle',
         stacka: 'React.js',
         stackb: 'MongoDB',
-        align: 'right-40',
+        align: 'right',
     },
 ];
