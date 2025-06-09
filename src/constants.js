@@ -1,3 +1,24 @@
+export const skills = [
+    'JavaScript',
+    'TypeScript',
+    'React.js',
+    'Java',
+    'PHP',
+    'C',
+    'SQL',
+    'MySQL',
+    'PostreSQL',
+    'GraphQL',
+    'MongoDB',
+    'Docker',
+    'Git',
+    'Spring',
+    'Bash',
+    'Linux CLI Tools',
+    'CSS3',
+    'Tailwind',
+];
+
 export const projects = [
     {
         title: 'Streamability',
