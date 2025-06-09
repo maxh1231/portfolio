@@ -1,0 +1,78 @@
+export const projects = [
+    {
+        title: 'Streamability',
+        desc: 'Full-stack application that helps users discover where to stream movies and TV shows. Features include personalized watchlists, trending content, and tailored recommendations based on user activity. Built with React, TypeScript, PostgreSQL, and Docker, using RESTful APIs, modern authentication, and a responsive UI.',
+        image: '/images/streamability.png',
+        deployment: 'https://streamability.vercel.app/',
+        github: 'https://github.com/Thenlie/Streamability',
+        stacka: 'PostgreSQL',
+        stackb: 'React.js',
+        align: 'right',
+    },
+    {
+        title: 'Audiophile',
+        desc: 'An e-commerce interface for audio products, designed to showcase front-end architecture, UI design, and component reusability. Features product browsing, cart management, and responsive layouts. Built with Next.js, React, and TypeScript, with a focus on clean design, accessibility, and frontend performance.',
+        image: '/images/audiophile.png',
+        deployment: 'https://audiophileproducts.vercel.app/',
+        github: 'https://github.com/maxh1231/audiophile-ecommerce',
+        stacka: 'Next.js',
+        stackb: 'TypeScript',
+        align: 'left',
+    },
+    {
+        title: 'Type++',
+        desc: 'A gamified typing tester featuring achievements, levels, badges, and competitive leaderboards (friend, weekly, and global). Users can add friends, compare performance, and track their typing stats over time. Built with React, GraphQL, JWT authentication, MongoDB, and Tailwind CSS, emphasizing a smooth user experience and structured data handling.',
+        image: '/images/type++.png',
+        deployment: 'https://typeplus.herokuapp.com/',
+        github: 'https://github.com/maxh1232/type-Plus-Plus',
+        stacka: 'MongoDB',
+        stackb: 'React.js',
+        align: 'right',
+    },
+    {
+        title: 'Hide Chess.com Opponent',
+        desc: 'A lightweight Firefox extension built with JavaScript that enhances focus during online chess games by hiding your opponent’s information on Chess.com. Designed with strict adherence to the Acorns Design System, the extension emphasizes performance through minimal CSS injection and maintains a clean, well-documented codebase.',
+        image: '/images/hide-chesscom-opponent.png',
+        deployment:
+            'https://addons.mozilla.org/en-US/firefox/addon/hide-chesscom-opponent/',
+        github: 'https://github.com/maxh1231/hide-chesscom-opponent',
+        stacka: 'JavaScript',
+        stackb: 'Mozilla API',
+        align: 'left',
+    },
+    {
+        title: 'Turtle',
+        desc: 'A word-guessing game inspired by Wordle, featuring multiple play modes including daily and unlimited games. Users can track their progress with a personalized dashboard that displays detailed game statistics. Built with React, MongoDB, and Webpack with a focus on replayability and user engagement.',
+        image: '/images/turtle.png',
+        deployment: 'https://turtle.herokuapp.com/',
+        github: 'https://github.com/maxh1231/turtle',
+        stacka: 'React.js',
+        stackb: 'MongoDB',
+        align: 'right',
+    },
+];
+export const jobs = [
+    {
+        title: 'Service Desk Technican 2',
+        company: 'Unisys',
+        startDate: 'Jun 2024',
+        endDate: 'Present',
+        bullets: [
+            'Serve as the escalation point for unresolved helpdesk tickets from AAA employees, troubleshooting complex software, hardware, and network issues while ensuring SLA compliance.',
+            'Administer Active Directory tasks by managing group policies, security groups, and user provisioning to support secure and efficient access control.',
+            'Developed and maintain a widely used library of automation scripts leveraging PowerShell, Azure AD, Windows Registry, and custom data sourcing methods, reducing manual workload across the team.',
+            'Authored and maintain an internal knowledge base for recurring technical issues, improving team consistency, resolution time, and onboarding of new technicians.',
+        ],
+    },
+    {
+        title: 'Developer Teaching Assistant & Tutor',
+        company: '2U Inc.',
+        startDate: 'Apr 2022',
+        endDate: 'Aug 2024',
+        bullets: [
+            'Assisted instructors in providing tailored support to students enrolled in a 24-week full stack developer bootcamp, contributing to a high retention rate and student satisfaction.',
+            'Facilitated the grading process for weekly assignments, ensuring fair and constructive feedback delivery to students, resulting in consistent improvement in their coding skills and project outcomes.',
+            'Collaborated with teaching staff to implement innovative teaching methodologies and resources, fostering an engaging and dynamic learning environment for students throughout the bootcamp duration.',
+        ],
+    },
+];
