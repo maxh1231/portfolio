@@ -3,7 +3,7 @@ import { About, Contact, Experience, Landing, Projects } from './pages';
 
 function App() {
     return (
-        <section className='App mx-12 my-6 '>
+        <section className='App mx-12 mt-6'>
             <Nav />
             <Landing />
             <About />
