@@ -26,7 +26,7 @@ const Contact = () => {
     return (
         <section
             id='contact'
-            className='mt-72 px-4 mx-auto max-w-[800px] min-h-[465px]'
+            className='mt-72 px-4 xs:px-8 mx-auto max-w-[800px] min-h-[465px] mb-24 xs:mb-0'
         >
             {view ? (
                 <div className='text-3xl md:text-4xl text-center text-blue-white'>

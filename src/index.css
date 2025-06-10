@@ -2,103 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Dark blue: #03045e */
-/* in the middle: #00b4d8 */
-/* Very light blue/white : #caf0f8 */
-
 html {
-  background-color: #0a192f;
-  box-sizing: content-box;
-  scroll-behavior: smooth;
+    background-color: #0a192f;
+    box-sizing: content-box;
+    scroll-behavior: smooth;
 }
 
 body {
-  margin: 0;
-  font-family: 'Gantari', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: "Gantari", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-.footer {
-  width: -moz-calc(100% - 100px);
-  width: -webkit-calc(100% - 100px);
-  width: calc(100% - 100px);
+    font-family:
+        source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 body::-webkit-scrollbar {
-  width: .5em;
-
+    width: 0.5em;
 }
 
 body::-webkit-scrollbar-button {
-  /* margin-top: 50px;
+    /* margin-top: 50px;
   margin-bottom: 50px; */
-  height: 500px;
+    height: 500px;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #8d99ae;
-  border: solid 1px #0a192f;
-  border-radius: 10px;
-}
-
-
-
-.overlay {
-  opacity: .75;
-}
-
-.overlay:hover {
-  opacity: 1;
-  cursor: pointer;
+    background-color: #8d99ae;
+    border: solid 1px #0a192f;
+    border-radius: 10px;
 }
 
 .github {
-  -webkit-filter: invert(.75);
-  /* safari 6.0 - 9.0 */
-  filter: invert(.75);
+    -webkit-filter: invert(0.75);
+    /* safari 6.0 - 9.0 */
+    filter: invert(0.75);
 }
 
 .github:hover {
-  -webkit-filter: invert(1);
-  /* safari 6.0 - 9.0 */
-  filter: invert(1);
-  cursor: pointer;
+    -webkit-filter: invert(1);
+    /* safari 6.0 - 9.0 */
+    filter: invert(1);
+    cursor: pointer;
 }
 
-.social {
-  position: relative;
-  float: right;
-  -moz-transform: rotate(270deg);
-  -o-transform: rotate(270deg);
-  -webkit-transform: rotate(-90deg);
-  -moz-transform-origin: 100% 100%;
-  -o-transform-origin: 100% 100%;
-  -webkit-transform-origin: 100% 100%;
-  bottom: 160px;
-  left: 10px;
-  opacity: .75;
+.sider-left {
+    right: 15px;
+    bottom: 200px;
 }
 
-.social:hover {
-  opacity: 1;
+.sider-right {
+    right: 16px;
+    bottom: 220px;
 }
 
-.social-left {
-  position: relative;
-  float: left;
-  bottom: 0px;
-  top: 20px;
-  right: 10px;
+@media (width < 768px) {
+    .sider-right {
+        left: 32px;
+    }
 }
 
-@media only screen and (max-width: 450px) {
-  .footer {
-    display: none;
-  }
-}

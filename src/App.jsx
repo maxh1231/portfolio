@@ -1,9 +1,9 @@
-import { Footer, Nav, Sider } from './components';
+import { Footer, Nav } from './components';
 import { About, Contact, Experience, Landing, Projects } from './pages';
 
 function App() {
     return (
-        <section className='App mx-6 md:mx-12 mt-6'>
+        <section className='mx-6 md:mx-12 mt-6'>
             <Nav />
             <Landing />
             <About />
@@ -11,7 +11,6 @@ function App() {
             <Projects />
             <Contact />
             <Footer />
-            {/* <Sider /> */}
         </section>
     );
 }

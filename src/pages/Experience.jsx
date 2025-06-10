@@ -6,7 +6,10 @@ const Experience = () => {
     const [currentJob, setCurrentJob] = useState(0);
 
     return (
-        <section id='exp' className='max-w-[1000px] px-4 flex-col mt-72 m-auto'>
+        <section
+            id='exp'
+            className='max-w-[1000px] px-4 xs:px-8 flex-col mt-72 m-auto'
+        >
             <h2 className='text-3xl md:text-4xl text-left text-blue-white'>
                 <span className='text-lg md:text-xl text-light-blue'>02. </span>
                 Experience
