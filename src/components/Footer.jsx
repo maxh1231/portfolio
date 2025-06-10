@@ -12,7 +12,7 @@ const Footer = () => {
                         rel='noreferrer'
                         className='w-[32px] h-[32px] mb-4'
                     >
-                        <img src={github} alt='github' className='github ' />
+                        <img src={github} alt='github' className='github' />
                     </a>
                     <a
                         href='https://www.linkedin.com/in/max-humpherys-040822219/'

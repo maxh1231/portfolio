@@ -49,7 +49,7 @@ const Project = ({
                 ></img>
             </a>
 
-            <div className='flex flex-col  lg:w-1/2'>
+            <div className='flex flex-col lg:w-1/2'>
                 <h3
                     className={`hidden lg:block text-xl lg:text-2xl text-blue-white my-4 ${align == 'right' ? 'lg:text-right' : 'lg:text-left'}`}
                 >
@@ -60,9 +60,7 @@ const Project = ({
                 >
                     {desc}
                 </p>
-                <div
-                    className={`hidden lg:flex justify-end items-center text-lg`}
-                >
+                <div className='hidden lg:flex justify-end items-center text-lg'>
                     <a
                         href={github}
                         target='_blank'
@@ -72,23 +70,18 @@ const Project = ({
                         <img
                             src={ghublogo}
                             alt='github logo'
-                            className={` github w-[32px] h-[32px]`}
+                            className='github w-[32px] h-[32px]'
                         />
                     </a>
-                    <a
-                        href={deployment}
-                        target='_blank'
-                        rel='noreferrer'
-                        className=''
-                    >
+                    <a href={deployment} target='_blank' rel='noreferrer'>
                         <img
                             src={exlink}
                             alt='github logo'
-                            className={`github w-[39px] h-[39px]`}
+                            className='github w-[39px] h-[39px]'
                         />
                     </a>
-                    <span className={`px-4 text-grey`}>{stacka}</span>
-                    <span className={`text-grey`}>{stackb}</span>
+                    <span className='px-4 text-grey'>{stacka}</span>
+                    <span className='text-grey'>{stackb}</span>
                 </div>
             </div>
         </div>

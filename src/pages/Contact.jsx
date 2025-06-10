@@ -49,7 +49,7 @@ const Contact = () => {
                     <form
                         ref={form}
                         onSubmit={handleSubmit(sendEmail)}
-                        className='flex flex-col '
+                        className='flex flex-col'
                     >
                         <div className=''>
                             <input
