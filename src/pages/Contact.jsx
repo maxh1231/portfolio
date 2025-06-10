@@ -1,4 +1,4 @@
-import { useRef, useState, useEffect } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { useForm } from 'react-hook-form';
 
@@ -7,40 +7,27 @@ const Contact = () => {
     const {
         register,
         handleSubmit,
-        watch,
-        formState: { isValid, errors },
+        formState: { errors },
     } = useForm({
         mode: 'onChange',
     });
     const form = useRef();
-    const name = watch();
-    useEffect(() => {
-        console.log(errors);
-        console.log(isValid);
-    }, [name]);
 
     const sendEmail = () => {
-        // emailjs
-        //     .sendForm(
-        //         'service_zirnhu8',
-        //         'template_z5s2y9b',
-        //         form.current,
-        //         'user_MiPMA7RruofT1yJEswkdw'
-        //     )
-        //     .then(
-        //         (result) => {
-        //             console.log(result.text);
-        //         },
-        //         (error) => {
-        //             console.log(error.text);
-        //         }
-        //     );
-
+        emailjs.sendForm(
+            'service_zirnhu8',
+            'template_z5s2y9b',
+            form.current,
+            'user_MiPMA7RruofT1yJEswkdw'
+        );
         setView(true);
     };
 
     return (
-        <section id='contact' className='mt-72 px-4 mx-auto max-w-[800px]'>
+        <section
+            id='contact'
+            className='mt-72 px-4 mx-auto max-w-[800px] min-h-[465px]'
+        >
             {view ? (
                 <div className='text-3xl md:text-4xl text-center text-blue-white'>
                     <h3>Thank you! I will be in contact.</h3>

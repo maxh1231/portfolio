@@ -4,8 +4,8 @@ const Landing = () => {
     return (
         <section className='px-4 flex flex-col text-center md:flex-row md:text-left items-center h-screen justify-center'>
             <div className='md:w-[336px] lg:w-[536px]'>
-                <p className='text-2xl md:text-4xl text-blue-white '>Hello,</p>
-                <p className='text-4xl md:text-6xl text-blue-white '>
+                <p className='text-2xl md:text-4xl text-blue-white'>Hello,</p>
+                <p className='text-4xl md:text-6xl text-blue-white'>
                     I build full-stack applications.
                 </p>
                 <p className='text-xl md:text-4xl text-grey'>

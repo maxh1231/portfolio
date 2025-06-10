@@ -6,7 +6,7 @@ const Experience = () => {
     const [currentJob, setCurrentJob] = useState(0);
 
     return (
-        <section className='max-w-[1000px] px-4 flex-col mt-72 m-auto'>
+        <section id='exp' className='max-w-[1000px] px-4 flex-col mt-72 m-auto'>
             <h2 className='text-3xl md:text-4xl text-left text-blue-white'>
                 <span className='text-lg md:text-xl text-light-blue'>02. </span>
                 Experience
@@ -14,10 +14,7 @@ const Experience = () => {
                     ___________________
                 </span>
             </h2>
-            <div
-                id='exp'
-                className='flex flex-col md:flex-row justify-center text-left'
-            >
+            <div className='flex flex-col md:flex-row justify-center text-left'>
                 <div className='flex justify-start items-center md:flex-col md:justify-center mt-2 md:m-0 space-x-4 md:space-x-0 md:mr-4'>
                     {jobs.map((item, i) => (
                         <span
