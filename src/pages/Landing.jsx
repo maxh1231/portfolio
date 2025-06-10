@@ -13,7 +13,12 @@ const Landing = () => {
                     scalable, and user-focused digital solutions.
                 </p>
             </div>
-            <img className='mt-2 md:m-0' src={avatar} alt='avatar' />
+            <img
+                className='mt-2 md:m-0'
+                src={avatar}
+                alt='avatar'
+                fetchpriority='high'
+            />
         </section>
     );
 };

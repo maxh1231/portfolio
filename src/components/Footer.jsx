@@ -25,7 +25,7 @@ const Footer = () => {
                 </div>
                 <a
                     href='mailto: max@humpherys.dev'
-                    className='relative sider-right rotate-[270deg] h-[32px] text-grey opacity-75 hover:opacity-100'
+                    className='relative sider-right rotate-[270deg] h-[32px] text-blue-white opacity-75 hover:opacity-100'
                 >
                     max@humpherys.dev
                 </a>
