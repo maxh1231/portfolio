@@ -38,7 +38,7 @@ export default function Nav() {
 
             <div
                 className={`flex flex-col md:flex-row items-start md:items-center justify-end w-full md:w-auto overflow-hidden transition-all duration-300 ease-in-out ${
-                    menuOpen ? 'max-h-52' : 'max-h-0 md:flex'
+                    menuOpen ? 'max-h-52' : 'max-h-0 md:max-h-32 md:flex'
                 }`}
             >
                 <a
