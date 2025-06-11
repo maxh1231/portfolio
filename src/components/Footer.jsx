@@ -15,7 +15,7 @@ const Footer = () => {
                         <img src={github} alt='github' className='github' />
                     </a>
                     <a
-                        href='https://www.linkedin.com/in/max-humpherys-040822219/'
+                        href='https://www.linkedin.com/in/max-humpherys/'
                         target='_blank'
                         rel='noreferrer'
                         className='w-[32px] h-[32px] mb-4'

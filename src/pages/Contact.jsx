@@ -15,10 +15,10 @@ const Contact = () => {
 
     const sendEmail = () => {
         emailjs.sendForm(
-            'service_zirnhu8',
+            import.meta.env.VITE_EMAIL_ID,
             'template_z5s2y9b',
             form.current,
-            'user_MiPMA7RruofT1yJEswkdw'
+            import.meta.env.VITE_EMAIL_KEY
         );
         setView(true);
     };

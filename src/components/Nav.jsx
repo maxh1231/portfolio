@@ -78,7 +78,7 @@ export default function Nav() {
                     Contact
                 </a>
                 <a
-                    href='https://1drv.ms/b/c/120cbcceb987a3b0/EWmd1Wu-tN1Evt85Q8WFdPgBFWzKD-VvTj5Oy2GY0IxLUQ?e=gWcJN1'
+                    href='/resume.pdf'
                     target='_blank'
                     rel='noopener noreferrer'
                     className='text-lg lg:text-2xl px-2 py-2 mt-2 md:mt-0 text-light-blue border-2 border-light-blue rounded-md hover:text-light-blue hover:bg-light-grey'
