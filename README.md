@@ -1,7 +1,5 @@
 # Portfolio ![Project Version Badge](https://img.shields.io/github/package-json/v/thenlie/type-plus-plus)
 
-This is my development portfolio and digtal resume.
-
 ### Check it out [here.](https://humpherys.dev/)
 
 ## Technology Stack
