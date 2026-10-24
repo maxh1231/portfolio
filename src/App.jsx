@@ -1,17 +1,21 @@
-import { Footer, Nav } from './components';
+import { Footer } from './components';
+import useReveal from './hooks/useReveal';
 import { About, Contact, Experience, Landing, Projects } from './pages';
 
 function App() {
+    useReveal();
+
     return (
-        <section className='mx-6 md:mx-12 lg:mx-24 mt-6'>
-            <Nav />
+        <>
             <Landing />
-            <About />
-            <Experience />
-            <Projects />
-            <Contact />
+            <main>
+                <Projects />
+                <Experience />
+                <About />
+                <Contact />
+            </main>
             <Footer />
-        </section>
+        </>
     );
 }
 

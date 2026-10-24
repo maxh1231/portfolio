@@ -1,42 +1,29 @@
-import { useState } from 'react';
-import { Job } from '../components';
+import { Job, Timeline } from '../components';
 import { jobs } from '../constants.js';
 
 const Experience = () => {
-    const [currentJob, setCurrentJob] = useState(0);
-
     return (
         <section
-            id='exp'
-            className='max-w-[1000px] px-4 xs:px-8 flex-col mt-72 m-auto'
+            id='experience'
+            aria-labelledby='experience-title'
+            className='bg-moss-deep px-gutter py-section text-paper'
         >
-            <h2 className='text-3xl md:text-4xl text-left text-blue-white'>
-                <span className='text-lg md:text-xl text-light-blue'>02. </span>
-                Experience
-                <span className='relative hidden sm:inline top-6 left-4 text-dark-blue border-t border-grey'>
-                    ___________________
-                </span>
-            </h2>
-            <div className='flex flex-col md:flex-row justify-center text-left'>
-                <div className='flex justify-start items-center md:flex-col md:justify-center mt-2 md:m-0 space-x-4 md:space-x-0 md:mr-4'>
-                    {jobs.map((item, i) => (
-                        <span
-                            key={i}
-                            onClick={() => setCurrentJob(i)}
-                            className={`min-w-[100px] border-b-2 md:border-b-0 md:border-l-2 ${currentJob === i ? 'border-light-blue text-light-blue' : 'border-grey text-grey '} hover:bg-light-grey hover:cursor-pointer p-4 text-lg text-center md:text-xl md:mb-4`}
-                        >
-                            {item.company}
-                        </span>
-                    ))}
+            <div className='mb-20 grid gap-12 lg:mb-28 lg:grid-cols-12 lg:items-end lg:gap-x-10'>
+                <h2
+                    id='experience-title'
+                    className='heading text-head lg:col-span-4'
+                    data-reveal
+                >
+                    Experience
+                </h2>
+                <div className='lg:col-span-7 lg:col-start-6'>
+                    <Timeline jobs={jobs} />
                 </div>
-
-                <Job
-                    title={jobs[currentJob].title}
-                    company={jobs[currentJob].company}
-                    startDate={jobs[currentJob].startDate}
-                    endDate={jobs[currentJob].endDate}
-                    bullets={jobs[currentJob].bullets}
-                />
+            </div>
+            <div className='grid gap-20 lg:gap-28'>
+                {jobs.map((job) => (
+                    <Job key={job.company} {...job} />
+                ))}
             </div>
         </section>
     );

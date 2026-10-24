@@ -7,7 +7,7 @@ export const skills = [
     'C',
     'SQL',
     'MySQL',
-    'PostreSQL',
+    'PostgreSQL',
     'GraphQL',
     'MongoDB',
     'Docker',
@@ -28,7 +28,6 @@ export const projects = [
         github: 'https://github.com/Thenlie/Streamability',
         stacka: 'PostgreSQL',
         stackb: 'React.js',
-        align: 'right',
     },
     {
         title: 'Audiophile',
@@ -38,7 +37,6 @@ export const projects = [
         github: 'https://github.com/maxh1231/audiophile-ecommerce',
         stacka: 'Next.js',
         stackb: 'TypeScript',
-        align: 'left',
     },
     {
         title: 'Type++',
@@ -48,7 +46,6 @@ export const projects = [
         github: 'https://github.com/maxh1232/type-Plus-Plus',
         stacka: 'MongoDB',
         stackb: 'React.js',
-        align: 'right',
     },
     {
         title: 'Hide Chess.com Opponent',
@@ -59,7 +56,6 @@ export const projects = [
         github: 'https://github.com/maxh1231/hide-chesscom-opponent',
         stacka: 'JavaScript',
         stackb: 'Mozilla API',
-        align: 'left',
     },
     {
         title: 'Turtle',
@@ -69,31 +65,76 @@ export const projects = [
         github: 'https://github.com/maxh1231/turtle',
         stacka: 'React.js',
         stackb: 'MongoDB',
-        align: 'right',
     },
 ];
 export const jobs = [
     {
-        title: 'Service Desk Technican 2',
+        title: 'Jr. Full Stack Developer',
+        company: 'Hammerton',
+        startDate: 'Oct 2025',
+        endDate: 'Present',
+        start: 2025 + 9 / 12,
+        summary:
+            'Build full-stack features for internal manufacturing and operations software, from API to interface.',
+        highlights: [
+            'Develop custom ERP modules and integrations that support sales and fulfillment workflows.',
+            'Ship reporting dashboards and localization for teams across the shop floor and front office.',
+            'Write internal automation and audit tooling in Python to keep systems and records in sync.',
+        ],
+        stack: [
+            'Python',
+            'TypeScript',
+            'React',
+            'Next.js',
+            'PostgreSQL',
+            'Odoo',
+            'Docker',
+        ],
+    },
+    {
+        title: 'Service Desk Technician 2',
         company: 'Unisys',
         startDate: 'Jun 2024',
-        endDate: 'Present',
-        bullets: [
-            'Serve as the escalation point for unresolved helpdesk tickets from AAA employees, troubleshooting complex software, hardware, and network issues while ensuring SLA compliance.',
-            'Administer Active Directory tasks by managing group policies, security groups, and user provisioning to support secure and efficient access control.',
-            'Developed and maintain a widely used library of automation scripts leveraging PowerShell, Azure AD, Windows Registry, and custom data sourcing methods, reducing manual workload across the team.',
-            'Authored and maintain an internal knowledge base for recurring technical issues, improving team consistency, resolution time, and onboarding of new technicians.',
+        endDate: 'Oct 2025',
+        start: 2024 + 5 / 12,
+        end: 2025 + 9 / 12,
+        summary:
+            'Escalation point for unresolved helpdesk tickets from AAA employees, solving complex software, hardware, and network issues within SLA.',
+        highlights: [
+            'Built and maintain a widely used library of PowerShell automation scripts for Azure AD, the Windows Registry, and custom data sources, reducing manual work across the team.',
+            'Administer Active Directory: group policies, security groups, and user provisioning for secure, efficient access control.',
+            'Authored and maintain the internal knowledge base for recurring issues, improving consistency, resolution time, and onboarding.',
         ],
+        stack: ['PowerShell', 'Azure AD', 'Active Directory', 'Windows'],
     },
     {
         title: 'Developer Teaching Assistant & Tutor',
         company: '2U Inc.',
         startDate: 'Apr 2022',
         endDate: 'Aug 2024',
-        bullets: [
-            'Assisted instructors in providing tailored support to students enrolled in a 24-week full stack developer bootcamp, contributing to a high retention rate and student satisfaction.',
-            'Facilitated the grading process for weekly assignments, ensuring fair and constructive feedback delivery to students, resulting in consistent improvement in their coding skills and project outcomes.',
-            'Collaborated with teaching staff to implement innovative teaching methodologies and resources, fostering an engaging and dynamic learning environment for students throughout the bootcamp duration.',
+        start: 2022 + 3 / 12,
+        end: 2024 + 7 / 12,
+        summary:
+            'Supported students through a 24-week full stack developer bootcamp alongside its instructors.',
+        highlights: [
+            'Gave tailored support that contributed to high student retention and satisfaction.',
+            'Graded weekly assignments with fair, constructive feedback that steadily improved students\' code and projects.',
+            'Worked with teaching staff on new methods and resources for an engaging learning environment.',
         ],
+        stack: ['Mentoring', 'Code review', 'Full stack curriculum'],
     },
+];
+
+export const links = {
+    email: 'max@humpherys.dev',
+    github: 'https://github.com/maxh1231',
+    linkedin: 'https://www.linkedin.com/in/max-humpherys/',
+    resume: '/resume.pdf',
+};
+
+export const sections = [
+    { href: '#work', label: 'Projects' },
+    { href: '#experience', label: 'Experience' },
+    { href: '#about', label: 'About' },
+    { href: '#contact', label: 'Contact' },
 ];
