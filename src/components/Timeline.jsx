@@ -9,7 +9,7 @@ const Timeline = ({ jobs }) => {
     const years = Array.from(
         { length: Math.floor(today) - from + 1 },
         (_, i) => from + i
-    );
+    ).filter((year) => (year - from) / span <= 0.85);
 
     return (
         <figure data-reveal>
@@ -47,9 +47,7 @@ const Timeline = ({ jobs }) => {
                         <span
                             key={year}
                             className='absolute top-0'
-                            style={{
-                                left: `min(${at(year)}, calc(100% - 3em))`,
-                            }}
+                            style={{ left: at(year) }}
                         >
                             {year}
                         </span>
