@@ -47,7 +47,9 @@ const Timeline = ({ jobs }) => {
                         <span
                             key={year}
                             className='absolute top-0'
-                            style={{ left: at(year) }}
+                            style={{
+                                left: `min(${at(year)}, calc(100% - 3em))`,
+                            }}
                         >
                             {year}
                         </span>

@@ -101,9 +101,9 @@ export const jobs = [
         summary:
             'Escalation point for unresolved helpdesk tickets from AAA employees, solving complex software, hardware, and network issues within SLA.',
         highlights: [
-            'Built and maintain a widely used library of PowerShell automation scripts for Azure AD, the Windows Registry, and custom data sources, reducing manual work across the team.',
-            'Administer Active Directory: group policies, security groups, and user provisioning for secure, efficient access control.',
-            'Authored and maintain the internal knowledge base for recurring issues, improving consistency, resolution time, and onboarding.',
+            'Built and maintained a widely used library of PowerShell automation scripts for Azure AD, the Windows Registry, and custom data sources, reducing manual work across the team.',
+            'Administered Active Directory: group policies, security groups, and user provisioning for secure, efficient access control.',
+            'Authored and maintained the internal knowledge base for recurring issues, improving consistency, resolution time, and onboarding.',
         ],
         stack: ['PowerShell', 'Azure AD', 'Active Directory', 'Windows'],
     },
