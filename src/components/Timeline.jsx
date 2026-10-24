@@ -6,6 +6,8 @@ const Timeline = ({ jobs }) => {
     const from = Math.floor(Math.min(...jobs.map((job) => job.start)));
     const span = today - from;
     const at = (year) => `${((year - from) / span) * 100}%`;
+    // Drop ticks past 85% of the track so no year label overflows the
+    // right edge or collides with its neighbour.
     const years = Array.from(
         { length: Math.floor(today) - from + 1 },
         (_, i) => from + i
