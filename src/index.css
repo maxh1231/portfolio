@@ -2,69 +2,170 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --step-small: clamp(0.8125rem, 0.79rem + 0.1vw, 0.875rem);
+    --step-body: clamp(1.0625rem, 1.02rem + 0.2vw, 1.1875rem);
+    --step-lead: clamp(1.25rem, 1.1rem + 0.7vw, 1.625rem);
+    --step-head: clamp(2.25rem, 1.4rem + 3.2vw, 4.25rem);
+    --step-display: clamp(3.5rem, 16vw, 8.5rem);
+
+    --gutter: clamp(1.25rem, 0.6rem + 2.6vw, 2.5rem);
+    --section: clamp(6rem, 3rem + 9vw, 11rem);
+
+    --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+    --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);
+    --t-press: 140ms;
+    --t-hover: 180ms;
+}
+
+@media (min-width: 1024px) {
+    :root {
+        --step-display: clamp(4.75rem, 7.4vw, 10rem);
+    }
+}
+
 html {
-    background-color: #0a192f;
-    box-sizing: content-box;
+    background-color: theme('colors.ink');
     scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
 }
 
 body {
     margin: 0;
-    font-family: "Gantari", sans-serif;
+    background-color: theme('colors.sand');
+    color: theme('colors.ink');
+    font-family: theme('fontFamily.serif');
+    font-size: var(--step-body);
+    line-height: 1.6;
+    font-optical-sizing: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-    font-family:
-        source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+::selection {
+    background-color: theme('colors.moss');
+    color: theme('colors.paper');
 }
 
-body::-webkit-scrollbar {
-    width: 0.5em;
+:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 4px;
 }
 
-body::-webkit-scrollbar-button {
-    height: 500px;
+.display {
+    font-weight: 500;
+    letter-spacing: -0.04em;
+    line-height: 0.92;
 }
 
-body::-webkit-scrollbar-thumb {
-    background-color: #8d99ae;
-    border: solid 1px #0a192f;
-    border-radius: 10px;
+.heading {
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1.05;
 }
 
-.github {
-    -webkit-filter: invert(0.75);
-    /* safari 6.0 - 9.0 */
-    filter: invert(0.75);
+.link {
+    text-decoration: underline;
+    text-decoration-thickness: 0.07em;
+    text-underline-offset: 0.22em;
+    text-decoration-color: color-mix(in srgb, currentColor 35%, transparent);
+    transition: text-decoration-color var(--t-hover) ease;
 }
 
-.github:hover {
-    -webkit-filter: invert(1);
-    /* safari 6.0 - 9.0 */
-    filter: invert(1);
-    cursor: pointer;
+.button {
+    transition:
+        transform var(--t-press) var(--ease-out),
+        background-color var(--t-hover) ease;
 }
 
-.sider-left {
-    right: 15px;
-    bottom: 200px;
+.button:active {
+    transform: scale(0.97);
 }
 
-.sider-right {
-    right: 16px;
-    bottom: 220px;
+/* Titles that are links stay clean until pointed at. */
+.link-quiet {
+    text-decoration-color: transparent;
 }
 
-@media (width < 768px) {
-    .sider-right {
-        left: 32px;
+@media (hover: hover) and (pointer: fine) {
+    .link:hover {
+        text-decoration-color: currentColor;
+    }
+
+    .button:hover {
+        background-color: theme('colors.moss-deep');
     }
 }
 
-@media (width > 1023px) {
-    .sider-right {
-        right: 112px;
+/* The hero's moving picture: every project screen, rolling slowly upward. */
+.filmstrip {
+    animation: filmstrip 70s linear infinite;
+}
+
+@keyframes filmstrip {
+    to {
+        transform: translateY(-50%);
+    }
+}
+
+/* Project previews stack in one frame and swap by opacity. */
+.preview {
+    transition: opacity 320ms var(--ease-out);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .js [data-reveal] {
+        opacity: 0;
+        transform: translateY(24px);
+        transition:
+            opacity 700ms var(--ease-out),
+            transform 900ms var(--ease-expo);
+        transition-delay: var(--delay, 0ms);
+    }
+
+    .js [data-reveal].is-in {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    .filmstrip {
+        animation: none;
+    }
+}
+
+/* The signature move: the name settles as the hero leaves and as the footer arrives. */
+@supports (animation-timeline: view()) {
+    @media (prefers-reduced-motion: no-preference) {
+        .wordmark-leave {
+            transform-origin: right bottom;
+            animation: wordmark-leave linear both;
+            animation-timeline: view();
+            animation-range: exit 0% exit 100%;
+        }
+
+        .wordmark-arrive {
+            transform-origin: left bottom;
+            animation: wordmark-arrive linear both;
+            animation-timeline: view();
+            animation-range: entry 0% cover 50%;
+        }
+
+        @keyframes wordmark-leave {
+            to {
+                transform: scale(0.93);
+            }
+        }
+
+        @keyframes wordmark-arrive {
+            from {
+                transform: scale(0.93);
+            }
+        }
     }
 }

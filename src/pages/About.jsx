@@ -1,40 +1,79 @@
+import avatar from '/images/avataaars.svg';
 import { skills } from '../constants';
 
 const About = () => {
     return (
         <section
             id='about'
-            className='max-w-[1000px] px-4 xs:px-8 flex flex-col text-left m-auto'
+            aria-labelledby='about-title'
+            className='grid gap-20 px-gutter py-section lg:grid-cols-12 lg:gap-x-10'
         >
-            <h2 className='mb-6 text-3xl md:text-4xl text-blue-white'>
-                <span className='text-lg md:text-xl text-light-blue'>01. </span>
-                About Me
-                <span className='hidden sm:inline relative top-6 left-4 text-dark-blue border-t border-grey'>
-                    ___________________
-                </span>
-            </h2>
-            <p className='md:text-xl text-grey'>
-                With an Associate's degree in Computer Science and Information
-                Systems and a Full Stack Web Development Certificate, I’ve
-                developed a strong foundation in both theoretical and practical
-                software development. My experience spans front-end and back-end
-                technologies, including JavaScript, TypeScript, Java, PHP,
-                SQL/NoSQL databases, and cloud architecture. I’m dedicated to
-                continuous learning and growth with evolving technologies by
-                exploring new frameworks and deepening my understanding of
-                computer science fundamentals. Outside of work, I enjoy movies,
-                music, and chess—and I’m rarely coding without my feline friend,
-                Rufus, nearby.
-            </p>
-            <h3 className='text-xl md:text-2xl text-blue-white my-6'>
-                Skills and Qualifications:
-            </h3>
-            <div className='flex flex-col flex-wrap h-64 sm:h-32'>
-                {skills.map((item, index) => (
-                    <p className='md:text-xl text-grey' key={index}>
-                        &#62; {item}
+            <div className='lg:col-span-6'>
+                <h2
+                    id='about-title'
+                    className='heading text-head'
+                    data-reveal
+                >
+                    About me
+                </h2>
+                <div className='mt-10 grid max-w-[34em] gap-6'>
+                    <p data-reveal>
+                        With an Associate&apos;s degree in Computer Science and
+                        Information Systems and a Full Stack Web Development
+                        Certificate, I&apos;ve developed a strong foundation in
+                        both theoretical and practical software development.
                     </p>
-                ))}
+                    <p data-reveal>
+                        My experience spans front-end and back-end technologies,
+                        including JavaScript, TypeScript, Java, PHP, SQL/NoSQL
+                        databases, and cloud architecture.
+                    </p>
+                    <p data-reveal>
+                        I&apos;m dedicated to continuous learning and growth with
+                        evolving technologies by exploring new frameworks and
+                        deepening my understanding of computer science
+                        fundamentals.
+                    </p>
+                    <p data-reveal>
+                        Outside of work, I enjoy movies, music, and chess—and
+                        I&apos;m rarely coding without my feline friend, Rufus,
+                        nearby.
+                    </p>
+                </div>
+                <div className='mt-10 flex items-center gap-4' data-reveal>
+                    <img
+                        src={avatar}
+                        alt=''
+                        width='56'
+                        height='56'
+                        className='h-14 w-14 rounded-full bg-sand-deep'
+                    />
+                    <p className='leading-tight'>
+                        <span className='block text-lead italic'>
+                            Max Humpherys
+                        </span>
+                        <span className='text-small text-muted'>
+                            Software engineer
+                        </span>
+                    </p>
+                </div>
+            </div>
+
+            <div className='bg-sand-deep p-gutter lg:col-span-5 lg:col-start-8 lg:self-start lg:p-12'>
+                <h3 className='heading text-lead' data-reveal>
+                    Skills and qualifications
+                </h3>
+                <ul className='mt-6 grid grid-cols-2 gap-x-6 gap-y-2'>
+                    {skills.map((item, i) => (
+                        <li
+                            key={item}
+                            data-reveal
+                            style={{ '--delay': `${30 * i}ms` }}
+                        >
+                            {item}
+                        </li>
+                    ))}
+                </ul>
             </div>
         </section>
     );

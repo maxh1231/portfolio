@@ -1,6 +1,19 @@
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { useForm } from 'react-hook-form';
+import { links } from '../constants';
+
+const fieldClass = (invalid) =>
+    `mt-2 block w-full bg-paper px-4 py-3 text-ink outline-none focus-visible:outline-none focus:ring-2 focus:ring-inset ${
+        invalid ? 'ring-2 ring-inset ring-error' : 'focus:ring-moss'
+    }`;
+
+const FieldError = ({ id, show, children }) =>
+    show ? (
+        <p id={id} className='mt-2 text-small text-error'>
+            {children}
+        </p>
+    ) : null;
 
 const Contact = () => {
     const [view, setView] = useState(false);
@@ -26,66 +39,141 @@ const Contact = () => {
     return (
         <section
             id='contact'
-            className='mt-72 px-4 xs:px-8 mx-auto max-w-[800px] min-h-[465px] mb-24 xs:mb-0'
+            aria-labelledby='contact-title'
+            className='grid gap-16 bg-sand-deep px-gutter py-section lg:grid-cols-12 lg:gap-x-10'
         >
-            {view ? (
-                <div className='text-3xl md:text-4xl text-center text-blue-white'>
-                    <h3>Thank you! I will be in contact.</h3>
-                </div>
-            ) : (
-                <>
-                    <h3 className='text-3xl md:text-4xl text-left text-blue-white'>
-                        <span className='text-lg md:text-xl text-light-blue'>
-                            04.{' '}
-                        </span>
-                        Contact
-                        <span className='relative hidden sm:inline top-6 left-4 text-dark-blue border-t border-grey'>
-                            ___________________
-                        </span>
-                    </h3>
-                    <p className='text-xl text-grey my-6'>
-                        Let's collaborate, my inbox is always open.
+            <div className='lg:col-span-5'>
+                <h2
+                    id='contact-title'
+                    className='heading text-head'
+                    data-reveal
+                >
+                    Contact
+                </h2>
+                <p className='mt-6 text-lead leading-snug' data-reveal>
+                    <span className='block text-muted'>
+                        Let&apos;s collaborate,
+                    </span>
+                    my inbox is always open.
+                </p>
+                <dl className='mt-12 grid gap-4' data-reveal>
+                    <div>
+                        <dt className='text-small text-muted'>Email</dt>
+                        <dd>
+                            <a href={`mailto:${links.email}`} className='link'>
+                                {links.email}
+                            </a>
+                        </dd>
+                    </div>
+                    <div>
+                        <dt className='text-small text-muted'>GitHub</dt>
+                        <dd>
+                            <a
+                                href={links.github}
+                                target='_blank'
+                                rel='noreferrer'
+                                className='link'
+                            >
+                                github.com/maxh1231
+                            </a>
+                        </dd>
+                    </div>
+                    <div>
+                        <dt className='text-small text-muted'>LinkedIn</dt>
+                        <dd>
+                            <a
+                                href={links.linkedin}
+                                target='_blank'
+                                rel='noreferrer'
+                                className='link'
+                            >
+                                linkedin.com/in/max-humpherys
+                            </a>
+                        </dd>
+                    </div>
+                </dl>
+            </div>
+
+            <div className='lg:col-span-6 lg:col-start-7' aria-live='polite'>
+                {view ? (
+                    <p className='heading text-head'>
+                        Thank you! I will be in contact.
                     </p>
+                ) : (
                     <form
                         ref={form}
                         onSubmit={handleSubmit(sendEmail)}
-                        className='flex flex-col'
+                        noValidate
+                        className='grid gap-6'
                     >
-                        <div className=''>
+                        <label className='block'>
+                            Name
                             <input
                                 {...register('from_name', { required: true })}
                                 type='text'
-                                placeholder='Name'
-                                className={`h-[40px] p-2 text-blue-white text-lg bg-light-grey outline-none border-2 ${errors.from_name ? 'border-rose-800' : 'border-grey'} rounded w-full`}
-                            ></input>
-                        </div>
-                        <div className='my-3'>
+                                autoComplete='name'
+                                aria-invalid={!!errors.from_name}
+                                aria-describedby='from_name-error'
+                                className={fieldClass(errors.from_name)}
+                            />
+                            <FieldError
+                                id='from_name-error'
+                                show={errors.from_name}
+                            >
+                                Please enter your name.
+                            </FieldError>
+                        </label>
+                        <label className='block'>
+                            Email
                             <input
                                 {...register('from_email', {
                                     required: true,
                                     pattern: /\S+@\S+\.\S+/,
                                 })}
                                 type='text'
-                                placeholder='Email'
-                                className={`h-[40px] p-2 text-blue-white text-lg bg-light-grey outline-none border-2 border-grey rounded ${errors.from_email ? 'border-rose-800' : 'border-grey'} w-full`}
-                            ></input>
-                        </div>
-                        <div className='mb-3'>
+                                inputMode='email'
+                                autoComplete='email'
+                                aria-invalid={!!errors.from_email}
+                                aria-describedby='from_email-error'
+                                className={fieldClass(errors.from_email)}
+                            />
+                            <FieldError
+                                id='from_email-error'
+                                show={errors.from_email}
+                            >
+                                Please enter a valid email address.
+                            </FieldError>
+                        </label>
+                        <label className='block'>
+                            Message
                             <textarea
                                 {...register('message', { required: true })}
-                                placeholder='Message'
-                                className={`h-[160px] p-2 text-blue-white text-lg bg-light-grey outline-none border-2 border-grey rounded ${errors.message ? 'border-rose-800' : 'border-grey'} w-full`}
-                            ></textarea>
+                                rows={6}
+                                aria-invalid={!!errors.message}
+                                aria-describedby='message-error'
+                                className={`${fieldClass(errors.message)} resize-y`}
+                            />
+                            <FieldError
+                                id='message-error'
+                                show={errors.message}
+                            >
+                                Please write a message.
+                            </FieldError>
+                        </label>
+                        <div>
+                            <button
+                                type='submit'
+                                className='button bg-moss px-8 py-3 text-paper'
+                            >
+                                Send message
+                            </button>
+                            <p className='mt-4 text-small text-muted'>
+                                Your message goes straight to my inbox.
+                            </p>
                         </div>
-                        <button
-                            type='submit'
-                            className='max-w-[250px] text-xl midsm:text-2xl px-8 py-2 text-light-blue border-2 border-light-blue rounded-md hover:bg-light-grey hover:cursor-pointer'
-                        >
-                            Submit
-                        </button>
                     </form>
-                </>
-            )}
+                )}
+            </div>
         </section>
     );
 };
